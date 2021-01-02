@@ -1,10 +1,10 @@
 ---
-title: "Freelance Physics and Mathematics tutor"
+title: "Physics and Mathematics tutor"
 collection: teaching
 type: "Freelance"
 permalink: /teaching/2021-physics-teaching
 venue: ""
-date: 2020-01-01
+date: 2021-01-01
 location: "Online"
 ---
 
