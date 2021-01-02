@@ -8,9 +8,6 @@ date: 2020-01-01
 location: "Online"
 ---
 
-Here I will gradually add topics I've taught.
-
-
-Heading 1
-======
-L
+Taught topics include:
+* High school Physics and Mathematics
+* Undergraduate Physics
