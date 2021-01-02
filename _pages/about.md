@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 Hi there! I'm Richard, a Physics masters student at [Ludwig-Maximilians-Universität München](https://www.en.uni-muenchen.de/),
-[Faculty of Physics](http://www.en.physik.lmu.de). My research interest lies in the interface between fundamental physics and machine learning, in particular by means of the gravitational-wave observations and cosmological surveys. On the theory side I am interested in theories of gravity and on the computational side in applying machine learning methods to Bayesian inference.
+[Faculty of Physics](http://www.en.physik.lmu.de). My research interest lies in the interface between fundamental physics and machine learning. On the theory side I am interested in theories of gravity and on the computational side in applying machine learning to existing Bayesian inference methods.
 
 Research
 ======
