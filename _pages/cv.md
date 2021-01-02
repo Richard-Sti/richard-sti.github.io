@@ -8,12 +8,16 @@ redirect_from:
 ---
 
 {% include base_path %}
+(Add link to the PDF version)
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ludwig-Maximilians-Universität München, 2020 - present
+    * MSc Physics
+* University of Glasgow, 2016 - 2020
+    * BSc Physics with Astrophysics, with Honours of the First Class, GPA 21.3/22
+* Hong Kong University of Science and Technology 2017 - 2018
+    * Undergraduate Exchange
 
 Work experience
 ======
@@ -22,10 +26,6 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
 Skills
 ======
@@ -56,4 +56,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* l
