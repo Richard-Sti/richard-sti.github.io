@@ -8,15 +8,15 @@ redirect_from:
 ---
 
 {% include base_path %}
-(Add link to the PDF version)
+(Add a link to the PDF version)
 
 Education
 ======
-* Ludwig-Maximilians-Universität München, 2020 - present
+* Ludwig-Maximilians-Universität München, <div style="text-align: right"> 2020 - present </div>
     * MSc Physics
-* University of Glasgow, 2016 - 2020
-    * BSc Physics with Astrophysics, with Honours of the First Class, GPA 21.3/22
-* Hong Kong University of Science and Technology 2017 - 2018
+* University of Glasgow, <div style="text-align: right"> 2016 - 2020</div>
+    * BSc Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
+* Hong Kong University of Science and Technology, <div style="text-align: right"> 2017 - 2018</div>
     * Undergraduate Exchange
 
 Work experience
