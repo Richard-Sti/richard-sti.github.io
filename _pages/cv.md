@@ -23,18 +23,22 @@ Education
 Work experience
 ======
 * **Research Intern**: Albert Einstein Institute Hannover (summer 2020)
-    * Description
+    * Project: *EPSIE: an Embarrassingly Parallel Sampler for Inference Estimation*
+    * Added support for several Euclidean and non-Euclidean proposal in EPSIE (a Markov Chain Monte Carlo sampler), a reversible-jump MCMC support, and flexible jump interval durations
+    * Supervised by Dr Collin Capano
+    * (*to be submitted to MNRAS in March 2021*)
 * **Research Intern**: University of Oxford (summer 2019)
-    * Description
+    * Project: *The dependence of subhalo abundance matching on galaxy photometry and selection criteria*
+    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected surveys, showed that the scatter in the galaxy--halo connection substantially increases in the faint galaxies and extended the domain of validity of the model
+    * Supervised by Dr Harry Desmond
+    * *(to be submitted to MNRAS in January 2021)*
 * **Research Intern**: University of Glasgow (summer 2018)
     * Project: *Are stellar--mass binary black hole mergers isotropically distributed?*
-    * - add a short project description - 
-    * Work published in MNRAS (link)
+    * Created a Bayesian model quantifying isotropy of the underlying angular distribution of stellar-mass binary black hole mergerers detected.
     * Supervised by Dr John Veitch and Dr Chris Messenger
-* **Data Analysis Intern**: Amper Market (summer 2017)
-    * Description
-* **Refrigeration Operator** : Alaska stuff
-    * Description
+* **Data Analysis Intern**: Amper Market a.s., Prague, Czech Republic (summer 2017)
+    * Examined imbalances in the electricity network to predict the future behaviour of the Czech market and studied the effects of cross-border electricity flow on the market prices.
+* **Refrigeration Operator** : Silver Bay Seafoods, Naknek, Alaska, USA (summer 2016)
 
 Publications
 ======
