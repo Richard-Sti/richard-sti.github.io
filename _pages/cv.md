@@ -10,12 +10,13 @@ redirect_from:
 {% include base_path %}
 (Add a link to the PDF version)
 
+
 Education
 ======
 * **Ludwig-Maximilians-Universität München** (2020 - present)
-    * MSc Physics
+    * MSc in Physics, with a research thesis in Astrophysics
 * **University of Glasgow** (2016-2020)
-    * BSc Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
+    * BSc in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
 * **Hong Kong University of Science and Technology** (2017-2018)
     * Undergraduate Exchange
 
@@ -41,6 +42,12 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Talks
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
 Awards and Certificates
 ======
 * *Kerr Bursary*: University of Glasgow (2020)
@@ -60,11 +67,12 @@ Awards and Certificates
 
 Skills
 ======
-* Skill 1, 2, 3
+* Technical: Bayesian inference, numerical programming, machine learning, web scraping
+* Programming languages: Python, C++, C, Shell, LaTex
+* Natural languages: English, Czech, Slovak, French (intermediate), German (beginner)
 
-  
-Talks
+Interests
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+* Philosophy and history of Physics
+* Sci-fi and fantasy novels
+* Long-distance running
