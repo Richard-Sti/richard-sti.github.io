@@ -80,10 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Richard Stiskalek"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Physics student interested in the interface between fundamental physics and machine learning approaches
+
+                      Graduate student at Ludwig-Maximilians-Universität München"
+  location         : "Munich, Germany"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -96,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "richard-sti"
   google_plus      :
   keybase          :
   instagram        :
