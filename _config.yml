@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Richard Stiskalek"
 title_separator          : "-"
 name                     : &name "Richard Stiskalek"
-description              : &description "Personal website"
+description              : &description "physics student"
 url                      : https://richard-sti.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "richard-sti/richard-sti.github.io"
@@ -82,14 +82,14 @@ analytics:
 author:
   name             : "Richard Stiskalek"
   avatar           : "profile.png"
-  bio              : "Physics student interested in the interface between fundamental physics and machine learning approaches
-
-                      Graduate student at Ludwig-Maximilians-Universität München"
+  bio              : "Physics student interested in the interface between fundamental physics and machine learning <br> <br>
+                      Masters student at <a style='color: black;' href='https://www.en.uni-muenchen.de/'>Ludwig-Maximilians-Universität München</a>,
+                      <a style='color: black;' href='http://www.en.physik.lmu.de'>Faculty of Physics</a>"
   location         : "Munich, Germany"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           : 
+  googlescholar    : 
+  email            : "richard.stiskalek@protonmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -104,14 +104,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/richard-stiskalek/"
+  orcid            : "https://orcid.org/0000-0002-0986-314X"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
