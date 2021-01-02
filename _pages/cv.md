@@ -43,7 +43,20 @@ Publications
 
 Awards and Certificates
 ======
-* Award 1, 2, 3
+* *Kerr Bursary*: University of Glasgow (2020)
+    * Best 4th year Physics student
+* *Lang Scholarship*: University of Glasgow (2019)
+    * Best 3rd year Physics examination results
+* *Undergraduate Summer Bursary*: Royal Astronomical Society (2018)
+    * Bursary providing support to students completing a research project
+* *Dean's List*: Hong Kong University of Science and Technology (2018)
+    * Awarded to students who achieve a TGA of at least 3.7/4.3 (achieved 3.96/4.3)
+* *South East Asia Study Abroad Scholarship*: University of Glasgow (2017)
+    * Scholarship supporting exchange students in South East Asia
+* *Astronomy 1 Prize*: University of Glasgow (2017)
+    * Best 1st year Astronomy student
+* *Matthew A Muir Bursary*: University of Glasgow (2017)
+    * Best 1st year Mathematics student
 
 Skills
 ======
