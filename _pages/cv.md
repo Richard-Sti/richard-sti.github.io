@@ -34,10 +34,10 @@ Work experience
     * *(to be submitted to MNRAS in January 2021)*
 * **Research Intern**: University of Glasgow (summer 2018)
     * Project: *Are stellar--mass binary black hole mergers isotropically distributed?*
-    * Created a Bayesian model quantifying isotropy of the underlying angular distribution of stellar-mass binary black hole mergers detected.
+    * Created a Bayesian model quantifying isotropy of the underlying angular distribution of the detected stellar-mass binary black hole mergers
     * Supervised by Dr John Veitch and Dr Chris Messenger
 * **Data Analysis Intern**: Amper Market a.s., Prague, Czech Republic (summer 2017)
-    * Examined imbalances in the electricity network to predict its future behaviour and studied the effects of cross-border electricity flow on the market prices.
+    * Examined imbalances in the electricity network to predict its future behaviour and studied the effects of cross-border electricity flow on the market prices
 * **Refrigeration Operator** : Silver Bay Seafoods, Naknek, Alaska, USA (summer 2016)
 
 Publications
