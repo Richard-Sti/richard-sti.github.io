@@ -8,15 +8,15 @@ redirect_from:
 ---
 
 {% include base_path %}
-(Add a link to the PDF version)
+Download a pdf [résumé](http://richard-sti.github.io/files/CV.pdf).
 
 
 Education
 ======
 * **Ludwig-Maximilians-Universität München** (2020 - present)
-    * MSc in Physics, with a research thesis in Astrophysics
+    * M.Sc. in Physics, with a research thesis in Astrophysics
 * **University of Glasgow** (2016-2020)
-    * BSc in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
+    * B.Sc. in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
 * **Hong Kong University of Science and Technology** (2017-2018)
     * 2nd year undergraduate exchange
 
@@ -24,7 +24,7 @@ Work experience
 ======
 * **Research Intern**: Albert Einstein Institute Hannover (summer 2020)
     * Project: *EPSIE: an Embarrassingly Parallel Sampler for Inference Estimation*
-    * Added support for several Euclidean and non-Euclidean proposal in EPSIE (a Markov Chain Monte Carlo sampler), a reversible-jump MCMC support, and flexible jump interval durations
+    * Added support for several Euclidean and non-Euclidean proposal distributions in [EPSIE](https://github.com/cdcapano/epsie) (a Markov Chain Monte Carlo sampler), a reversible-jump MCMC support, and flexible jump interval durations
     * Supervised by Dr Collin Capano
 * **Research Intern**: University of Oxford (summer 2019)
     * Project: *The dependence of subhalo abundance matching on galaxy photometry and selection criteria*
