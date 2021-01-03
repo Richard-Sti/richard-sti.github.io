@@ -26,12 +26,10 @@ Work experience
     * Project: *EPSIE: an Embarrassingly Parallel Sampler for Inference Estimation*
     * Added support for several Euclidean and non-Euclidean proposal in EPSIE (a Markov Chain Monte Carlo sampler), a reversible-jump MCMC support, and flexible jump interval durations
     * Supervised by Dr Collin Capano
-    * (*to be submitted to MNRAS in March 2021*)
 * **Research Intern**: University of Oxford (summer 2019)
     * Project: *The dependence of subhalo abundance matching on galaxy photometry and selection criteria*
-    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected surveys, showed that the scatter in the galaxy--halo connection substantially increases in the faint galaxies and extended the domain of validity of the model
+    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected regimes, showed that the scatter in the galaxy--halo connection substantially increases in the faint galaxies and extended the domain of validity of the model
     * Supervised by Dr Harry Desmond
-    * *(to be submitted to MNRAS in January 2021)*
 * **Research Intern**: University of Glasgow (summer 2018)
     * Project: *Are stellar--mass binary black hole mergers isotropically distributed?*
     * Created a Bayesian model quantifying isotropy of the underlying angular distribution of the detected stellar-mass binary black hole mergers
@@ -72,7 +70,7 @@ Awards and Certificates
 Skills
 ======
 * Technical: Bayesian inference, numerical programming, machine learning, web scraping
-* Programming languages: Python, C++, C, Shell, LaTex
+* Programming languages: Python, C++, C, Shell, LaTeX
 * Natural languages: English, Czech, Slovak, French (intermediate), German (beginner)
 
 Interests
