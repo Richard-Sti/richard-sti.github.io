@@ -15,7 +15,7 @@ Hey there! I'm Richard, a Physics master's student at [Ludwig-Maximilians-Univer
 
 Research
 ======
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+So far, I have worked on Bayesian inference in gravitational-wave astronomy, empirical modelling of the relation between galaxies and their halos (subhalo abundance matching) and co-developed a (reversible) Markov chain Monte Carlo sampler. Currently, I mostly spend my time applying machine learning methods to the galaxy-halo connection in hydrodynamical simulations. In my master's thesis, I plan to investigate the lensing of gravitational-wave events that will regularly be detected by future detectors.
 
 
 Background
