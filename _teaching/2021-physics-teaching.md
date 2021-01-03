@@ -3,7 +3,7 @@ title: "Physics and Mathematics tutor"
 collection: teaching
 type: "Freelance"
 permalink: /teaching/2021-physics-teaching
-venue: ""
+venue: "-"
 date: 2021-01-01
 location: "Online"
 ---
