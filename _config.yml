@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Richard Stiskalek"
   avatar           : "profile.jpg"
-  bio              : "Physics student interested in the interface between fundamental physics and machine learning <br> <br>
-                      Masters student at <a style='color: black;' href='https://www.en.uni-muenchen.de/'>Ludwig-Maximilians-Universität München</a>,
+  bio              : "Physics student with a liking for mixing theory with observations and all things related to cosmology. <br> <br>
+                      Master's student at <a style='color: black;' href='https://www.en.uni-muenchen.de/'>Ludwig-Maximilians-Universität München</a>,
                       <a style='color: black;' href='http://www.en.physik.lmu.de'>Faculty of Physics</a>"
   location         : "Munich, Germany"
   employer         :
@@ -91,6 +91,7 @@ author:
   googlescholar    : 
   email            : "richard.stiskalek@protonmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Stiskalek%2C+R"
   uri              :
   bitbucket        :
   codepen          :
