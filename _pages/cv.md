@@ -58,8 +58,8 @@ Talks
 
 Awards and Certificates
 ======
-* *DAAD* Study Scholarship (2021)
-    * German Academic Exchange Service scholarship for students from the UK
+* *DAAD Study Scholarship: German Academic Exchange Service (2021)
+    * Scholarship for students from the UK coming to Germany
 * *Kerr Bursary*: University of Glasgow (2020)
     * Best 4th year Physics student
 * *Lang Scholarship*: University of Glasgow (2019)

@@ -10,12 +10,12 @@ redirect_from:
 
 {% include base_path %}
 
-Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in galaxy formation, dynamics and gravitational-wave astronomy in the overarching context of tests of gravity, dark matter, and LambdaCDM cosmology. I also enjoy thinking about and working on new Bayesian inference tools and machine learning. Lastly, whenever I have the time I like to go out for long runs.
+Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in galaxy formation and dynamics, and gravitational-wave astronomy in the overarching context of tests of gravity, dark matter, and LambdaCDM cosmology. I also enjoy thinking about and working on new Bayesian inference tools and machine learning. Lastly, whenever I have the time I like to go out for long runs.
 
 
 Research
 ======
-I have worked on gravitational-wave data analysis, empirical modelling of the relation between galaxies and dark matter halos, co-developed a (reversible) Markov chain Monte Carlo sampler, and others. Currently, I am actively pursuing two projects. First is my thesis, in which I am working on birefringence of gravitational waves and its possible detection. Secondly, I am using machine learning to understand the primary and secondary scatter in the galaxy-halo connection from cosmological simulations.
+I have worked on gravitational-wave data analysis, empirical modelling of the relation between galaxies and dark matter halos, co-developed a (reversible) Markov chain Monte Carlo sampler, and others. Currently, I am actively pursuing two projects. First is my thesis, in which I am working on birefringence of gravitational waves in general relativity and its possible detection. Secondly, I am using machine learning to understand the primary and secondary scatter in the galaxy-halo connection from cosmological simulations.
 
 
 
