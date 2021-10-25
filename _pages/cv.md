@@ -13,30 +13,36 @@ Download a pdf [résumé](http://richard-sti.github.io/files/CV.pdf).
 
 Education
 ======
-* **Ludwig-Maximilians-Universität München** (2020 - present)
-    * M.Sc. in Physics, with a research thesis in Astrophysics
+* **Ludwig-Maximilians-University** (2020 - present)
+    * M.Sc. in Physics, with a thesis on gravitational-wave birefringence
 * **University of Glasgow** (2016-2020)
     * B.Sc. in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
 * **Hong Kong University of Science and Technology** (2017-2018)
     * 2nd year undergraduate exchange
 
-Work experience
+Research experience
 ======
 * **Research Intern**: Albert Einstein Institute Hannover (summer 2020)
-    * Project: *EPSIE: an Embarrassingly Parallel Sampler for Inference Estimation*
-    * Added support for several Euclidean and non-Euclidean proposal distributions in [EPSIE](https://github.com/cdcapano/epsie) (a Markov Chain Monte Carlo sampler), a reversible-jump MCMC support, and flexible jump interval durations
-    * Supervised by Dr Collin Capano
+    * Project: *[EPSIE](): an Embarrassingly Parallel Sampler for Inference Estimation*
+    * Co-developed EPSIE, a (reversible) Markov chain Monte Carlo sampler
+    * Supervised by *Dr Collin Capano*
 * **Research Intern**: University of Oxford (summer 2019)
     * Project: *The dependence of subhalo abundance matching on galaxy photometry and selection criteria*
-    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected regimes, showed that the scatter in the galaxy--halo connection substantially increases in the faint galaxies and extended the domain of validity of the model
-    * Supervised by Dr Harry Desmond
+    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected regimes
+    * Supervised by *Dr Harry Desmond*
 * **Research Intern**: University of Glasgow (summer 2018)
     * Project: *Are stellar--mass binary black hole mergers isotropically distributed?*
-    * Created a Bayesian model quantifying isotropy of the underlying angular distribution of the detected stellar-mass binary black hole mergers
-    * Supervised by Dr John Veitch and Dr Chris Messenger
+    * Developed a Bayesian model of the isotropy of the distribution of the detected black hole mergers
+    * Supervised by *Dr John Veitch* and *Dr Chris Messenger*
+
+Work experience
+======
+* **Statistical Modelling Consultant** (09/2021 - present)
+    * Development & application of algorithms to predict future states of financial markets (hierarchical Bayesian models, Gaussian processes, genetic algorithms)
 * **Data Analysis Intern**: Amper Market a.s., Prague, Czech Republic (summer 2017)
-    * Examined imbalances in the electricity network to predict its future behaviour and studied the effects of cross-border electricity flow on the market prices
+    * Studied imbalances in the electricity network and designed a model predicting the future imbalances
 * **Refrigeration Operator** : Silver Bay Seafoods, Naknek, Alaska, USA (summer 2016)
+    * Shipping and operating the freezer in a salmon processing plant while working 16-hour shifts
 
 Publications
 ======
@@ -52,6 +58,8 @@ Talks
 
 Awards and Certificates
 ======
+* *DAAD* Study Scholarship (2021)
+    * German Academic Exchange Service scholarship for students from the UK
 * *Kerr Bursary*: University of Glasgow (2020)
     * Best 4th year Physics student
 * *Lang Scholarship*: University of Glasgow (2019)
@@ -69,8 +77,9 @@ Awards and Certificates
 
 Skills
 ======
-* Technical: Bayesian inference, numerical programming, machine learning, web scraping
-* Programming languages: Python, C++, C, Shell, LaTeX
+* Theoretical: General relativity, quantum field theory, information field theory, statistical inference
+* Technical: Numerical & symbolic programming, machine learning
+* Programming languages: Python, Mathematica, C++, C, Shell, LaTeX
 * Natural languages: English, Czech, Slovak, French (intermediate), German (beginner)
 
 Interests
