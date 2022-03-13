@@ -15,8 +15,7 @@ Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-Un
 
 Research
 ======
-I have worked on gravitational-wave data analysis, empirical modelling of the relation between galaxies and dark matter halos, co-developed a (reversible) Markov chain Monte Carlo sampler, and others. Currently, I am actively pursuing two projects. First is my thesis, in which I am working on birefringence of gravitational waves in general relativity and its possible detection. Secondly, I am using machine learning to understand the primary and secondary scatter in the galaxy-halo connection from cosmological simulations.
-
+I have worked on gravitational-wave data analysis, empirical and machine learning modelling of the galaxy--halo connection, co-developed a (reversible) Markov chain Monte Carlo (MCMC) sampler, and others.Currently I am primarily working on my master's thesis on the strong field propagation of gravitaional waves and developing the aforementioned MCMC sampler.
 
 
 Background
