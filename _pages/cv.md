@@ -8,41 +8,38 @@ redirect_from:
 ---
 
 {% include base_path %}
-Download a pdf [résumé](http://richard-sti.github.io/files/CV.pdf).
+Download a pdf [CV](http://richard-sti.github.io/files/CV.pdf).
+
+Interests
+======
+Galaxy formation & evolution, galaxy–halo connection, large-scale structure, gravitational-wave omy, Bayesian inference, machine learning
 
 
 Education
 ======
 * **Ludwig-Maximilians-University** (2020 - present)
-    * M.Sc. in Physics, with a thesis on gravitational-wave birefringence
+    * M.Sc. in Physics, with a thesis on strong-field propagation of polarised gravitational waves
 * **University of Glasgow** (2016-2020)
     * B.Sc. in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
 * **Hong Kong University of Science and Technology** (2017-2018)
-    * 2nd year undergraduate exchange
+    * Undergraduate exchange
+* **Gymnazium Jakuba Skody** (2008-2016)
+    * State examination in Czech, Mathematics, Physics and English
 
-Research experience
+Employment
 ======
-* **Research Intern**: Albert Einstein Institute Hannover (summer 2020)
-    * Project: *[EPSIE](): an Embarrassingly Parallel Sampler for Inference Estimation*
-    * Co-developed EPSIE, a (reversible) Markov chain Monte Carlo sampler
-    * Supervised by *Dr Collin Capano*
-* **Research Intern**: University of Oxford (summer 2019)
-    * Project: *The dependence of subhalo abundance matching on galaxy photometry and selection criteria*
-    * Tested fundamental assumptions of clustering-fitted parametrised subhalo abundance matching modelling in both optically and HI-selected regimes
-    * Supervised by *Dr Harry Desmond*
-* **Research Intern**: University of Glasgow (summer 2018)
-    * Project: *Are stellar--mass binary black hole mergers isotropically distributed?*
-    * Developed a Bayesian model of the isotropy of the distribution of the detected black hole mergers
-    * Supervised by *Dr John Veitch* and *Dr Chris Messenger*
-
-Work experience
-======
-* **Statistical Modelling Consultant** (09/2021 - present)
-    * Development & application of algorithms to predict future states of financial markets (hierarchical Bayesian models, Gaussian processes, genetic algorithms)
-* **Data Analysis Intern**: Amper Market a.s., Prague, Czech Republic (summer 2017)
-    * Studied imbalances in the electricity network and designed a model predicting the future imbalances
-* **Refrigeration Operator** : Silver Bay Seafoods, Naknek, Alaska, USA (summer 2016)
-    * Shipping and operating the freezer in a salmon processing plant while working 16-hour shifts
+* **Primer Research**, 09/2021 - 01/2022
+    * Statistical modelling consultant
+* **Albert Einstein Institute Hannover**, 06/2020 - 09/2020
+    * Research intern, supervised by *Dr Collin Capano*
+* **University of Oxford**, 06/2019 - 09/2019
+    * Research intern, supervised by *Dr Harry Desmond*
+* **University of Glasgow**, 06/2018 - 09-2018
+    * Research intern, supervised by *Dr John Veitch* and *Dr Chris Messenger*
+* **Amper Market a.s.**, 06/2017 - 09/2017
+    * Data analysis intern
+* **Silver Bay Seafoods**, 06/2016 - 07/2016 
+    * Freezer operator in Naknek, Alaska
 
 Publications
 ======
@@ -58,32 +55,19 @@ Talks
 
 Awards and Certificates
 ======
-* *DAAD Study Scholarship: German Academic Exchange Service (2021)
-    * Scholarship for students from the UK coming to Germany
-* *Kerr Bursary*: University of Glasgow (2020)
-    * Best 4th year Physics student
-* *Lang Scholarship*: University of Glasgow (2019)
-    * Best 3rd year Physics examination results
-* *Undergraduate Summer Bursary*: Royal Astronomical Society (2018)
-    * Bursary providing support to students completing a research project
-* *Dean's List*: Hong Kong University of Science and Technology (2018)
-    * Awarded to students who achieve a TGA of at least 3.7/4.3 (achieved 3.96/4.3)
-* *South East Asia Study Abroad Scholarship*: University of Glasgow (2017)
-    * Scholarship supporting exchange students in South East Asia
-* *Astronomy 1 Prize*: University of Glasgow (2017)
-    * Best 1st year Astronomy student
-* *Matthew A Muir Bursary*: University of Glasgow (2017)
-    * Best 1st year Mathematics student
-
-Skills
-======
-* Theoretical: General relativity, quantum field theory, information field theory, statistical inference
-* Technical: Numerical & symbolic programming, machine learning
-* Programming languages: Python, Mathematica, C++, C, Shell, LaTeX
-* Natural languages: English, Czech, Slovak, French (intermediate), German (beginner)
-
-Interests
-======
-* Philosophy and history of Physics
-* Sci-fi and fantasy novels
-* Long-distance running
+* *DAAD Study Scholarship*, 2021
+    * German Academic Exchange Service
+* *Kerr Bursary*, 2020
+    * University of Glasgow
+* *Lang Scholarship*, 2019
+    * University of Glasgow
+* *Undergraduate Summer Bursary*, 2018
+    * Royal Astronomical Society
+* *Dean's List*, 2018
+    * Hong Kong University of Science and Technology
+* *South East Asia Study Abroad Scholarship*, 2017
+    * University of Glasgow
+* *Astronomy 1 Prize*, 2017
+    * University of Glasgow
+* *Matthew A Muir Bursary*, 2017
+    * University of Glasgow

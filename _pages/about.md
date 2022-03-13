@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in galaxy formation and dynamics, particularly the relation between galaxies and their elusive dark matter haloes, gravitational wave-astronomy, Bayesian methods, and machine learning. Lastly, whenever I have the time I like to go out for long runs.
+Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in galaxy formation and dynamics, particularly the relation between galaxies and their elusive dark matter haloes, and gravitational wave-astronomy. On the inference side, I am interested in novel Bayesian methods and machine learning. Lastly, whenever I have the time I like to go out for long runs.
 
 
 Research
