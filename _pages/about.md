@@ -16,7 +16,7 @@ Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-Un
 Research
 ======
 
-I have worked on projects spanning gravitational-wave astronomy, empirical and machine learning modelling of the galaxy--halo connection and developed a reversible Markov chain Monte carlo sampler. Currently, I am primarily trying to figure out how gravitational wave propagation is affected by strong gravitational fields and to better understand what causes galaxies to stop forming new stars.
+I have worked on projects spanning gravitational wave astronomy, empirical and machine learning modelling of the galaxy--halo connection and developed a reversible Markov chain Monte carlo sampler. Currently, I am primarily trying to figure out how gravitational wave propagation is affected by strong gravitational fields and to better understand what causes galaxies to stop forming new stars.
 
 
 Background
