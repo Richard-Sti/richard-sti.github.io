@@ -3,21 +3,22 @@ permalink: /
 title: "About"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
 {% include base_path %}
 
-Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in galaxy formation and dynamics, particularly the relation between galaxies and their elusive dark matter haloes, and gravitational wave-astronomy. On the inference side, I am interested in novel Bayesian methods and machine learning. Lastly, whenever I have the time I like to go out for long runs.
+Hey there! I'm Richard, a Physics master's student at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/), Munich. My interests are in astrophysical tests of gravity and galaxy formation, gravitational-wave astronomy and Bayesian inference. I also like to go out for long runs whenever I can!
 
 
 Research
 ======
-I have worked on gravitational-wave data analysis, empirical and machine learning modelling of the galaxy--halo connection, co-developed a (reversible) Markov chain Monte Carlo (MCMC) sampler, and others.Currently I am primarily working on my master's thesis on the strong field propagation of gravitaional waves and developing the aforementioned MCMC sampler.
+
+I have worked on projects spanning gravitational-wave astronomy, empirical and machine learning modelling of the galaxy--halo connection and developed a reversible Markov chain Monte carlo sampler. Currently, I am primarily trying to figure out how gravitational wave propagation is affected by strong gravitational fields and to better understand what causes galaxies to stop forming new stars.
 
 
 Background
 ======
-I received my undergraduate education in Physics and Astrophysics at the [University of Glasgow](https://www.gla.ac.uk), from which I graduated with Honours of the First Class and a 21.3/22 GPA in June 2020. Along the way, I spent the 2nd year on exchange at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), a forming experience that, among others, cemented my resolve to become a researcher. Thus, over the next years, I pursued several research projects (in Glasgow, Oxford, Hannover and Munich) to better prepare for a career in physics (but also to just have some fun). Today, I am in the 3rd (out of 4) semester  of my master's degree at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/) and will be starting a Ph.D. position in Autumn 2022.
+I received my undergraduate education in Physics and Astrophysics at the [University of Glasgow](https://www.gla.ac.uk). Along the way, I spent the 2nd year on exchange at the [Hong Kong University of Science and Technology](https://hkust.edu.hk/), a forming experience that, among others, cemented my resolve to become a researcher. Over the following years I pursued several research projects (in Glasgow, Oxford, Hannover and Munich) to better prepare for a career in physics (but mainly to just have some fun). Today, I am in the final semester of my master's degree at the [Ludwig-Maximilians-University](https://www.en.uni-muenchen.de/).

@@ -12,21 +12,20 @@ Download a pdf [CV](http://richard-sti.github.io/files/CV.pdf).
 
 Interests
 ======
-Galaxy formation & evolution, galaxy–halo connection, large-scale structure, gravitational-wave omy, Bayesian inference, machine learning
+Astrophysical tests of gravity and galaxy formation, gravitational-wave astronomy, Bayesian inference
 
 
 Education
 ======
 * **Ludwig-Maximilians-University** (2020 - present)
-    * M.Sc. in Physics, with a thesis on strong-field propagation of polarised gravitational waves
+    * M.Sc. in Physics
 * **University of Glasgow** (2016-2020)
-    * B.Sc. in Physics with Astrophysics with Honours of the First Class, GPA 21.3/22
+    * B.Sc. in Physics with Astrophysics with Honours of the First Class
 * **Hong Kong University of Science and Technology** (2017-2018)
     * Undergraduate exchange
 * **Gymnazium Jakuba Skody** (2008-2016)
-    * State examination in Czech, Mathematics, Physics and English
 
-Employment
+<!-- Employment
 ======
 * **Primer Research**, 09/2021 - 01/2022
     * Statistical modelling consultant
@@ -39,7 +38,7 @@ Employment
 * **Amper Market a.s.**, 06/2017 - 09/2017
     * Data analysis intern
 * **Silver Bay Seafoods**, 06/2016 - 07/2016 
-    * Freezer operator in Naknek, Alaska
+    * Freezer operator in Naknek, Alaska -->
 
 Publications
 ======
@@ -47,13 +46,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
-Awards and Certificates
+<!-- Awards and Certificates
 ======
 * *DAAD Study Scholarship*, 2021
     * German Academic Exchange Service
@@ -70,4 +69,4 @@ Awards and Certificates
 * *Astronomy 1 Prize*, 2017
     * University of Glasgow
 * *Matthew A Muir Bursary*, 2017
-    * University of Glasgow
+    * University of Glasgow -->
