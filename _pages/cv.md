@@ -28,11 +28,11 @@ Education
 <!-- * **Gymnazium Jakuba Skody** (2008-2016) -->
 
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 <!-- Talks
 ======
