@@ -8,37 +8,25 @@ redirect_from:
 ---
 
 {% include base_path %}
-Download a pdf [CV](http://richard-sti.github.io/files/CV.pdf).
+Download a [PDF version](http://richard-sti.github.io/files/CV.pdf).
 
 Interests
 ======
-Astrophysical tests of gravity and galaxy formation, gravitational-wave astronomy, Bayesian inference
+Galaxy formation and dynamics, astrophysical tests of gravity, strong-field limit gravitational wave propagation and lensing, gravitational-wave astronomy, Bayesian inference
 
 
 Education
 ======
-* **Ludwig-Maximilians-University** (2020 - present)
+* **University of Oxford** (2022 - )
+    * DPhil in Astrophysics
+* **Ludwig-Maximilians-University** (2020 - 2022)
     * M.Sc. in Physics
-* **University of Glasgow** (2016-2020)
-    * B.Sc. in Physics with Astrophysics with Honours of the First Class
 * **Hong Kong University of Science and Technology** (2017-2018)
     * Undergraduate exchange
-* **Gymnazium Jakuba Skody** (2008-2016)
+* **University of Glasgow** (2016-2020)
+    * B.Sc. in Physics with Astrophysics with Honours of the First Class
+<!-- * **Gymnazium Jakuba Skody** (2008-2016) -->
 
-<!-- Employment
-======
-* **Primer Research**, 09/2021 - 01/2022
-    * Statistical modelling consultant
-* **Albert Einstein Institute Hannover**, 06/2020 - 09/2020
-    * Research intern, supervised by *Dr Collin Capano*
-* **University of Oxford**, 06/2019 - 09/2019
-    * Research intern, supervised by *Dr Harry Desmond*
-* **University of Glasgow**, 06/2018 - 09-2018
-    * Research intern, supervised by *Dr John Veitch* and *Dr Chris Messenger*
-* **Amper Market a.s.**, 06/2017 - 09/2017
-    * Data analysis intern
-* **Silver Bay Seafoods**, 06/2016 - 07/2016 
-    * Freezer operator in Naknek, Alaska -->
 
 Publications
 ======
