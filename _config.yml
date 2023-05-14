@@ -82,14 +82,13 @@ analytics:
 author:
   name             : "Richard Stiskalek"
   avatar           : "profile.jpg"
-  bio              : "Physics student interested in galaxies and gravity. <br> <br>
-                      Graduate student at the <a style='color: black;' href='https://www.physics.ox.ac.uk/research/subdepartment/astrophysics'> University of Oxford</a>"
+  bio              : "Astrophysics graduate student at the <a style='color: black;' href='https://www.physics.ox.ac.uk/research/subdepartment/astrophysics'> University of Oxford</a>"
   location         : "Oxford, United Kingdom"
   employer         :
-  pubmed           : 
-  googlescholar    : 
-  email            : "richard.stiskalek@protonmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           :
+  googlescholar    :
+  email            : "richard.stiskalek@physics.ox.ac.uk"
+  researchgate     : "https://www.researchgate.net/profile/Richard-Stiskalek"
   uri              :
   bitbucket        :
   codepen          :
@@ -110,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :

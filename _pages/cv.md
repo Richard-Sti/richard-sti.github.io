@@ -12,7 +12,7 @@ Download a [PDF version](http://richard-sti.github.io/files/CV.pdf).
 
 Interests
 ======
-Galaxy formation and dynamics, astrophysical tests of gravity, strong-field limit gravitational wave propagation and lensing, gravitational-wave astronomy, Bayesian inference
+Galaxy formation and dynamics, gravitational-wave astronomy and Bayesian inference & machine learning
 
 
 Education
@@ -24,7 +24,7 @@ Education
 * **Hong Kong University of Science and Technology** (2017-2018)
     * Undergraduate exchange
 * **University of Glasgow** (2016-2020)
-    * B.Sc. in Physics with Astrophysics with Honours of the First Class
+    * B.Sc. in Physics with Astrophysics
 <!-- * **Gymnazium Jakuba Skody** (2008-2016) -->
 
 
