@@ -12,19 +12,16 @@ Download a [PDF version](http://richard-sti.github.io/files/CV.pdf).
 
 Interests
 ======
-Galaxy formation and dynamics, gravitational-wave astronomy and Bayesian inference & machine learning
+Constrained cosmological simulations, galaxy--halo connection, gravitational-wave astronomy, Bayesian inference & machine learning
 
 
 Education
 ======
-* **University of Oxford** (2022 - )
-    * DPhil in Astrophysics
-* **Ludwig-Maximilians-University** (2020 - 2022)
-    * M.Sc. in Physics
-* **Hong Kong University of Science and Technology** (2017-2018)
-    * Undergraduate exchange
-* **University of Glasgow** (2016-2020)
-    * B.Sc. in Physics with Astrophysics
+* **University of Oxford**, DPhil in Astrophysics (2022 - )
+* **Ludwig-Maximilians-University**, M.Sc. in Physics (2020 - 2022)
+* **Hong Kong University of Science and Technology**, undergraduate exchange (2017-2018)
+* **University of Glasgow**, B.Sc. in Physics with Astrophysics (2016-2020)
+
 <!-- * **Gymnazium Jakuba Skody** (2008-2016) -->
 
 
