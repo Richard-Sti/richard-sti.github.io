@@ -8,11 +8,15 @@ permalink: /updates
 
 - **25 Jun** — New preprint: *Forward-modelling the Tolman and distance-duality tests with IllustrisTNG* (H. Desmond, T. Yasin, R. Stiskalek, S. von Hausegger) on arXiv. [arXiv:2606.27182](https://arxiv.org/abs/2606.27182)
 - **23 Jun** — Talk *Cosmological Rescaling of Merger Trees* at the SBI for Galaxy Evolution workshop, Cambridge.
+- **11 Jun** — Talk *Supernova-free local ladders for H₀* at the Cosmology seminar, UCL.
 - **8 Jun** — New preprint: *Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models* (R. Stiskalek, L. A. Perez, S. Genel, R. S. Somerville, R. E. Angulo, S. Contreras) on arXiv. [arXiv:2606.10024](https://arxiv.org/abs/2606.10024)
 - **8 Jun** — New preprint: *Learning the Universe: Constrained simulations of the Coma galaxy cluster — I. Radial X-ray and Compton-y signatures* (U. P. Steinwandel, S. McAlpine, R. Stiskalek, et al.) on arXiv. [arXiv:2606.10028](https://arxiv.org/abs/2606.10028)
+- **2 Jun** — Online talk *Supernova-free local ladders for H₀* at the GDR CoPhy Episode 4 meeting, Clermont-Ferrand, France.
 
 ### April 2026
 
+- **21 Apr** — Talk *Bridging Machine Learning and Cosmology at Scale* at the PV Reconstruction online meeting.
+- **8 Apr** — Online talk *Cosmological Rescaling of Merger Trees* at the CAMELS + Baryon Pasting Workshop, University of Osaka.
 - **7 Apr** — New preprint: *Introducing sapphire: Towards Hybrid Physics-Informed, Data-Driven Modeling of Galaxy Formation* (V. Pandya, …, R. Stiskalek, …) on arXiv. [arXiv:2604.06318](https://arxiv.org/abs/2604.06318)
 
 ### March 2026
