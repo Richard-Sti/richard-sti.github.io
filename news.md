@@ -7,10 +7,25 @@ permalink: /updates
 ### June 2026
 
 - **25 Jun** — New preprint: *Forward-modelling the Tolman and distance-duality tests with IllustrisTNG* (H. Desmond, T. Yasin, R. Stiskalek, S. von Hausegger) on arXiv. [arXiv:2606.27182](https://arxiv.org/abs/2606.27182)
-- **Jun** — Talk *Cosmological Rescaling of Merger Trees* at the SBI for Galaxy Evolution workshop, Cambridge.
+- **23 Jun** — Talk *Cosmological Rescaling of Merger Trees* at the SBI for Galaxy Evolution workshop, Cambridge.
+- **8 Jun** — New preprint: *Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models* (R. Stiskalek, L. A. Perez, S. Genel, R. S. Somerville, R. E. Angulo, S. Contreras) on arXiv. [arXiv:2606.10024](https://arxiv.org/abs/2606.10024)
+- **8 Jun** — New preprint: *Learning the Universe: Constrained simulations of the Coma galaxy cluster — I. Radial X-ray and Compton-y signatures* (U. P. Steinwandel, S. McAlpine, R. Stiskalek, et al.) on arXiv. [arXiv:2606.10028](https://arxiv.org/abs/2606.10028)
+
+### April 2026
+
+- **7 Apr** — New preprint: *Introducing sapphire: Towards Hybrid Physics-Informed, Data-Driven Modeling of Galaxy Formation* (V. Pandya, …, R. Stiskalek, …) on arXiv. [arXiv:2604.06318](https://arxiv.org/abs/2604.06318)
+
+### March 2026
+
+- **26 Mar** — New preprint: *Parameterizing Dark Energy at the density level: A two-parameter alternative to CPL* (G. Montefalcone, R. Stiskalek) on arXiv. [arXiv:2603.25735](https://arxiv.org/abs/2603.25735)
+- **10 Mar** — New preprint: *Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia–HST calibration* (R. Stiskalek, A. Riess, H. Desmond, G. Lavaux, D. Scolnic) on arXiv. [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
 
 ### February 2026
 
 - **14 Feb** — Our paper *Revisiting the Great Attractor* (R. Stiskalek, H. Desmond, S. McAlpine, G. Lavaux, J. Jasche, M. J. Hudson) accepted in the Open Journal of Astrophysics. [arXiv:2601.08524](https://arxiv.org/abs/2601.08524)
 - **7 Feb** — New preprint: *Testing cosmic anisotropy with cluster scaling relations* (T. Yasin, R. Stiskalek, H. Desmond, S. von Hausegger, P. G. Ferreira) on arXiv. [arXiv:2602.06007](https://arxiv.org/abs/2602.06007)
 - **4 Feb** — Talk *Velocity Field Olympics* at the Leibniz Institute for Astrophysics Potsdam, Germany.
+
+### January 2026
+
+- **12 Jan** — New preprint: *Testing subhalo abundance matching with galaxy kinematics* (F. Boreiko, T. Yasin, H. Desmond, R. Stiskalek, M. J. Jarvis) on arXiv. [arXiv:2601.07799](https://arxiv.org/abs/2601.07799)
