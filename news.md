@@ -16,6 +16,7 @@ permalink: /updates
 ### May 2026
 
 - **29 May** — Defended my DPhil thesis, examined by David Alonso and Kaisey Mandel.
+- **1 May** — Began my Hintze Prize Fellowship in Astrophysics (Cosmology) at the University of Oxford.
 
 ### April 2026
 
