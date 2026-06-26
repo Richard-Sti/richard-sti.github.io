@@ -13,6 +13,10 @@ permalink: /updates
 - **8 Jun** — New preprint: *Learning the Universe: Constrained simulations of the Coma galaxy cluster — I. Radial X-ray and Compton-y signatures* (U. P. Steinwandel, S. McAlpine, R. Stiskalek, et al.) on arXiv. [arXiv:2606.10028](https://arxiv.org/abs/2606.10028)
 - **2 Jun** — Online talk *Supernova-free local ladders for H₀* at the GDR CoPhy Episode 4 meeting, Clermont-Ferrand, France.
 
+### May 2026
+
+- **29 May** — Defended my DPhil thesis, examined by David Alonso and Kaisey Mandel.
+
 ### April 2026
 
 - **21 Apr** — Talk *Bridging Machine Learning and Cosmology at Scale* at the PV Reconstruction online meeting.
