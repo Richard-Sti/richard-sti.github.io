@@ -15,7 +15,7 @@ For a full list of publications, see my [CV](/cv) or [ADS library](https://ui.ad
 Digital twins of the local Universe are simulations whose initial conditions are inferred to reproduce the specific structures -- galaxies, clusters, voids, filaments -- that we observe in our cosmic neighbourhood, rather than a random patch of the Universe. I am interested in exploiting these to learn about cosmology and galaxy formation: mapping large-scale flows, precision measurements of the expansion rate, semi-analytical modelling and object-by-object tests of galaxy formation models, and ultimately field-level inference of the initial conditions and cosmological parameters.
 {: style="text-align: justify"}
 
-- **R. Stiskalek**, H. Desmond, J. Devriendt, A. Slyz, G. Lavaux, M. Hudson, D. Bartlett, H. Courtois (2025). *The Velocity Field Olympics.* MNRAS 545. [arXiv:2502.00121](https://arxiv.org/abs/2502.00121)
+- **R. Stiskalek**, H. Desmond, J. Devriendt, A. Slyz, G. Lavaux, M. Hudson, D. Bartlett, H. Courtois (2025). *The Velocity Field Olympics.* MNRAS 545:staf1960. [arXiv:2502.00121](https://arxiv.org/abs/2502.00121)
 - S. McAlpine, J. Jasche, M. Ata, G. Lavaux, **R. Stiskalek**, C. S. Frenk, A. Jenkins (2025). *The Manticore Project I: a digital twin of our cosmic neighbourhood.* MNRAS 540:716. [arXiv:2505.10682](https://arxiv.org/abs/2505.10682)
 
 ### Distance-ladder cosmology
@@ -24,7 +24,7 @@ I develop new statistical frameworks for distance-ladder cosmology based on rigo
 {: style="text-align: justify"}
 
 - **R. Stiskalek**, H. Desmond, E. Tsaprazi, A. Heavens, G. Lavaux, S. McAlpine, J. Jasche (2025). *1.8 per cent measurement of H&#x2080; from Cepheids alone.* MNRAS. [arXiv:2509.09665](https://arxiv.org/abs/2509.09665)
-- H. Desmond, **R. Stiskalek**, J. A. Najera, I. Banik (2025). *The subtle statistics of the distance ladder: On the distance prior and selection effects.* Submitted. [arXiv:2511.03394](https://arxiv.org/abs/2511.03394)
+- H. Desmond, **R. Stiskalek**, J. A. Najera, I. Banik (2025). *The subtle statistics of the distance ladder: On the distance prior and selection effects.* MNRAS:stag1144. [arXiv:2511.03394](https://arxiv.org/abs/2511.03394)
 
 ### Peculiar velocities
 
@@ -32,7 +32,7 @@ Peculiar velocities -- deviations from the smooth Hubble flow -- can be inferred
 {: style="text-align: justify"}
 
 - **R. Stiskalek** (2025). *S&#x2088; from Tully-Fisher, fundamental plane, and supernova distances agree with Planck.* Submitted. [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
-- **R. Stiskalek**, H. Desmond, G. Lavaux (2025). *No evidence for local H&#x2080; anisotropy from Tully-Fisher or supernova distances.* MNRAS 546. [arXiv:2509.14997](https://arxiv.org/abs/2509.14997)
+- **R. Stiskalek**, H. Desmond, G. Lavaux (2025). *No evidence for local H&#x2080; anisotropy from Tully-Fisher or supernova distances.* MNRAS 546:staf2048. [arXiv:2509.14997](https://arxiv.org/abs/2509.14997)
 
 ### Galaxy--halo connection
 
