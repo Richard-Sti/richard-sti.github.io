@@ -4,6 +4,10 @@ title: Updates
 permalink: /updates
 ---
 
+### July 2026
+
+- **2 Jul** — My paper *S₈ from peculiar velocities: agreement with Planck for Tully–Fisher and supernovae, tension for the fundamental plane* accepted in MNRAS. [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
+
 ### June 2026
 
 - **25 Jun** — New preprint: *Forward-modelling the Tolman and distance-duality tests with IllustrisTNG* (H. Desmond, T. Yasin, R. Stiskalek, S. von Hausegger) on arXiv. [arXiv:2606.27182](https://arxiv.org/abs/2606.27182)
