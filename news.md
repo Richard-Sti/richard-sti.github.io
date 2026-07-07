@@ -6,6 +6,7 @@ permalink: /updates
 
 ### July 2026
 
+- **6 Jul** — My paper *Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models* accepted in ApJ. [arXiv:2606.10024](https://arxiv.org/abs/2606.10024)
 - **2 Jul** — My paper *Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia–HST calibration* accepted in MNRAS. [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
 - **2 Jul** — My paper *S₈ from peculiar velocities: agreement with Planck for Tully–Fisher and supernovae, tension for the fundamental plane* accepted in MNRAS. [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
 

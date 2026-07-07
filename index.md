@@ -5,7 +5,7 @@ title: About me
 
 <img src="/images/profile.jpg" alt="Richard Stiskalek" style="float: right; width: 200px; margin: 0 0 1em 1.5em; border-radius: 8px;">
 
-I am a Hintze Prize Fellow in Astrophysics (Cosmology) at the [University of Oxford](https://www.physics.ox.ac.uk/research/subdepartment/astrophysics). I completed my DPhil in Astrophysics at the University of Oxford ([Balliol College](https://www.balliol.ox.ac.uk)). I am a member of the [Aquila Consortium](https://aquila-consortium.org), the [Learning the Universe](https://learning-the-universe.org), and the [CAMELS](https://www.camel-simulations.org) collaborations.
+I am a Hintze Prize Fellow in Astrophysics (Cosmology) at the [University of Oxford](https://www.physics.ox.ac.uk/research/subdepartment/astrophysics). I completed my DPhil in Astrophysics at the University of Oxford ([Balliol College](https://www.balliol.ox.ac.uk)), where I was a [Snell Exhibitioner](https://en.wikipedia.org/wiki/Snell_Exhibition). I am a member of the [Aquila Consortium](https://aquila-consortium.org), the [Learning the Universe](https://learning-the-universe.org), and the [CAMELS](https://www.camel-simulations.org) collaborations.
 {: style="text-align: justify"}
 
 I specialise in Bayesian forward modelling of astrophysical observations and digital twins of the local Universe, leveraging galaxy clustering and peculiar velocities to infer the initial conditions of the Universe. Lately, I have been deriving novel statistical frameworks for measuring the expansion rate, ranging from Milky Way stars to nearby Cepheid, tip of the red giant branch (TRGB), and maser host galaxies, all the way to distant supernovae -- though the latter remain a challenge due to their complex selection effects.
