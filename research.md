@@ -48,7 +48,7 @@ I am interested in the empirical correlations governing the dynamics of disc gal
 {: style="text-align: justify"}
 
 - **R. Stiskalek**, H. Desmond (2023). *On the fundamentality of the radial acceleration relation for late-type galaxy dynamics.* MNRAS 525:6130. [arXiv:2305.19978](https://arxiv.org/abs/2305.19978)
-- F. Boreiko, T. Yasin, H. Desmond, **R. Stiskalek**, M. J. Jarvis (2026). *Testing subhalo abundance matching with galaxy kinematics.* Submitted. [arXiv:2601.07799](https://arxiv.org/abs/2601.07799)
+- F. Boreiko, T. Yasin, H. Desmond, **R. Stiskalek**, M. J. Jarvis (2026). *Testing subhalo abundance matching with galaxy kinematics.* MNRAS, in press. [arXiv:2601.07799](https://arxiv.org/abs/2601.07799)
 
 ### Machine learning methods
 
