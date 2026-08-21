@@ -4,6 +4,10 @@ title: Updates
 permalink: /updates
 ---
 
+### August 2026
+
+- **20 Aug** — Our paper *Parameterizing Dark Energy at the density level: A two-parameter alternative to CPL* (G. Montefalcone, R. Stiskalek) published in [PRD 114:043538](https://journals.aps.org/prd/abstract/10.1103/xx41-1ndv). [arXiv:2603.25735](https://arxiv.org/abs/2603.25735)
+
 ### July 2026
 
 - **12 Jul** — Granted leave to supplicate for my DPhil — Oxford's formal confirmation that all requirements for the degree have been met.
