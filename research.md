@@ -23,8 +23,8 @@ Digital twins of the local Universe are simulations whose initial conditions are
 I develop new statistical frameworks for distance-ladder cosmology based on rigorous Bayesian forward modelling. A particular focus is exploiting relatively small samples of distance indicators, such as Cepheids, tip of the red giant branch (TRGB) stars, and masers, that are otherwise dominated by cosmic variance, using digital twins of the local Universe to suppress it and deliver precision measurements of the Hubble constant. Upcoming goals include delivering a forward model of the entire distance ladder -- from Milky Way stars to distant supernovae -- and developing a novel scalable framework for the LSST era.
 {: style="text-align: justify"}
 
-- **R. Stiskalek**, A. Riess, H. Desmond, G. Lavaux, D. Scolnic (2026). *Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia-HST calibration.* MNRAS, in press. [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
-- **R. Stiskalek**, H. Desmond, E. Tsaprazi, A. Heavens, G. Lavaux, S. McAlpine, J. Jasche (2025). *1.8 per cent measurement of H&#x2080; from Cepheids alone.* MNRAS. [arXiv:2509.09665](https://arxiv.org/abs/2509.09665)
+- **R. Stiskalek**, A. Riess, H. Desmond, G. Lavaux, D. Scolnic (2026). *Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia-HST calibration.* MNRAS 550:stag1272. [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
+- **R. Stiskalek**, H. Desmond, E. Tsaprazi, A. Heavens, G. Lavaux, S. McAlpine, J. Jasche (2025). *1.8 per cent measurement of H&#x2080; from Cepheids alone.* MNRAS 546:staf2260. [arXiv:2509.09665](https://arxiv.org/abs/2509.09665)
 - H. Desmond, **R. Stiskalek**, J. A. Najera, I. Banik (2025). *The subtle statistics of the distance ladder: On the distance prior and selection effects.* MNRAS:stag1144. [arXiv:2511.03394](https://arxiv.org/abs/2511.03394)
 
 ### Peculiar velocities
@@ -32,7 +32,7 @@ I develop new statistical frameworks for distance-ladder cosmology based on rigo
 Peculiar velocities -- deviations from the smooth Hubble flow -- can be inferred by comparing a galaxy's observed redshift with an independent estimate of its distance from scaling relations such as Tully-Fisher, fundamental plane, or supernova standardisation. I use these surveys to constrain cosmological parameters such as f&sigma;&#x2088;, test the cosmological principle through searches for anisotropies in the local expansion rate, and ultimately to build the next generation of digital twins of the local Universe.
 {: style="text-align: justify"}
 
-- **R. Stiskalek** (2025). *S&#x2088; from Tully-Fisher, fundamental plane, and supernova distances agree with Planck.* Submitted. [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
+- **R. Stiskalek** (2025). *S&#x2088; from Tully-Fisher, fundamental plane, and supernova distances agree with Planck.* MNRAS 550:stag1266. [arXiv:2509.20235](https://arxiv.org/abs/2509.20235)
 - **R. Stiskalek**, H. Desmond, G. Lavaux (2025). *No evidence for local H&#x2080; anisotropy from Tully-Fisher or supernova distances.* MNRAS 546:staf2048. [arXiv:2509.14997](https://arxiv.org/abs/2509.14997)
 
 ### Galaxy--halo connection
