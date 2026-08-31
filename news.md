@@ -6,6 +6,7 @@ permalink: /updates
 
 ### August 2026
 
+- **31 Aug** — Our paper *Introducing sapphire: Towards Hybrid Physics-Informed, Data-Driven Modeling of Galaxy Formation* (V. Pandya, …, R. Stiskalek, …) accepted in ApJ. [arXiv:2604.06318](https://arxiv.org/abs/2604.06318)
 - **20 Aug** — Our paper *Parameterizing Dark Energy at the density level: A two-parameter alternative to CPL* (G. Montefalcone, R. Stiskalek) published in [PRD 114:043538](https://journals.aps.org/prd/abstract/10.1103/xx41-1ndv). [arXiv:2603.25735](https://arxiv.org/abs/2603.25735)
 
 ### July 2026
