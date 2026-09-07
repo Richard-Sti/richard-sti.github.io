@@ -6,7 +6,7 @@
   <meta name="robots" content="{{ page.robots }}">
   {% endif %}
 
-  <title>{% if page.title %}R. Stiskalek | {{ page.title }}{% else %}R. Stiskalek{% endif %}</title>
+  <title>{% if page.title %}RS: {{ page.tab_title | default: page.title | escape }}{% else %}RS{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
   <meta name="HandheldFriendly" content="True">
