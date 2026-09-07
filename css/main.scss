@@ -1,59 +1,144 @@
 ---
 ---
-@import "uno";
+// Adapted from Paul Le's Academic theme. See LICENSE-academic.txt.
 @import "tables";
 @import "monokai";
 
-/* Modifications */
+* { box-sizing: border-box; }
 
-pre.highlight,
-.highlight pre {
-  padding: 10px;
+body {
+  margin: 0;
+  border-top: 4px solid #285c7e;
+  background: #fff;
+  color: #212529;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-pre.highlight code,
-.highlight pre code {
-  white-space: pre-wrap;
+a {
+  color: #285c7e;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  overflow-wrap: anywhere;
 }
 
-.btn,
-.navigation__item a {
-  margin: 5px 0;
-  white-space: nowrap;
+a:hover { color: #183d56; }
+
+a:focus-visible {
+  outline: 2px solid #285c7e;
+  outline-offset: 4px;
 }
 
-.pagination__page-number {
-  display: inline-block;
-  padding: 10px;
+.site-container {
+  width: min(100% - 48px, 1120px);
+  margin: 0 auto;
+  padding-top: 48px;
 }
 
-.categories a,
-.tags a {
-  border: 1px solid #e25440;
-  border-radius: 20px;
-  color: #e25440;
-  display: inline-block;
-  font-size: 12px;
-  margin: 5px 0;
-  padding: 5px 10px;
-  text-shadow: none;
-  white-space: nowrap;
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d8e3eb;
 }
 
-.post-meta__tags {
-  font-size: 12px;
-  padding: 0 5px;
+.site-identity { max-width: 520px; }
+.site-title { font-size: 24px; font-weight: 700; text-decoration: none; }
+.site-description { margin: 2px 0 0; font-size: 15px; }
+
+.site-navigation, .social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
 }
 
-.footer__copyright {
-    margin: 0 20px 10px;
+.site-navigation { flex-shrink: 0; }
+.site-navigation a { padding: 8px 0; text-decoration: none; color: #212529; }
+.site-navigation a:hover, .site-navigation a[aria-current="page"] { color: #285c7e; text-decoration: underline; }
+
+h1, h2, h3, h4 {
+  color: #234e70;
+  line-height: 1.25;
+  font-weight: 700;
 }
 
-.user-image {
-  margin-bottom: 1.2em;
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border: 3px solid #fff;
-  border-radius:100%;
+h1 { margin: 0 0 20px; font-size: 28px; }
+h2 { margin: 40px 0 24px; font-size: 24px; }
+h3 { margin: 32px 0 16px; font-size: 21px; }
+h4 { font-size: 18px; }
+p { margin: 0 0 20px; }
+ul, ol { padding-left: 24px; margin: 0 0 24px; }
+li { margin-bottom: 10px; }
+
+.page-title, .post-title {
+  margin: 0 0 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d8e3eb;
+}
+
+.page-content h2 {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d8e3eb;
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 48px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+img { max-width: 100%; height: auto; }
+.profile-image { display: block; width: 100%; }
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 24px;
+  margin: 56px 0 32px;
+  padding-top: 32px;
+  border-top: 1px solid #dee2e6;
+  color: #626970;
+  font-size: 14px;
+}
+
+.site-footer p { margin-bottom: 6px; }
+.theme-credit { font-size: 13px; }
+.social-links a { padding: 4px 0; }
+.post-meta { margin-bottom: 12px; color: #626970; font-size: 14px; }
+.tags, .categories { display: flex; flex-wrap: wrap; gap: 16px; }
+
+pre { overflow-x: auto; padding: 16px; }
+code { font-size: 0.9em; }
+blockquote { margin: 24px 0; padding-left: 24px; border-left: 3px solid #dee2e6; }
+table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  padding: 8px 16px;
+  background: #fff;
+}
+.skip-link:focus { top: 8px; }
+
+@media (max-width: 960px) {
+  .site-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .site-identity { max-width: none; }
+}
+
+@media (max-width: 640px) {
+  .site-container { width: calc(100% - 40px); padding-top: 28px; }
+  .site-header { margin-bottom: 32px; }
+  .site-title { font-size: 22px; }
+  .site-navigation { gap: 0 18px; }
+  .home-intro { grid-template-columns: 1fr; gap: 20px; }
+  .profile-image { max-width: 220px; }
+  .site-footer { flex-direction: column; gap: 16px; margin-top: 40px; }
 }

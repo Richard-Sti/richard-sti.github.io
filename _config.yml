@@ -3,8 +3,18 @@ title: "Dr Richard Stiskalek"
 description: 'Hintze Prize Fellow in Astrophysics (Cosmology) at the University of Oxford'
 url: 'https://richard-sti.github.io'
 baseurl: ''
-disable_landing_page: true
-# google_analytics: 'UA-XXXXXX-X'
+
+navigation:
+  - title: About
+    url: /
+  - title: Research
+    url: /research
+  - title: Updates
+    url: /updates
+  - title: Blog
+    url: /blog
+  - title: CV
+    url: /images/CV.pdf
 
 author:
   name: 'Richard Stiskalek'
@@ -27,7 +37,6 @@ titles_from_headings:
 
 # Build settings
 destination: _site
-paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
 highlighter: rouge
@@ -40,5 +49,4 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'CLAUDE.md']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'CLAUDE.md', 'LICENSE-academic.txt', 'scripts']

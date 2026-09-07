@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article>
+  {% assign sections = content | split: '<!--more-->' %}
+  <div class="home-intro">
+    <div>
+      <h1>{{ page.title }}</h1>
+      {{ sections.first }}
+    </div>
+    <img class="profile-image" src="{{ '/images/profile.jpg' | relative_url }}" alt="Richard Stiskalek" width="1868" height="2141">
+  </div>
+  <div class="page-content">
+    {{ sections.last }}
+  </div>
+</article>

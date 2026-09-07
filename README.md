@@ -1,54 +1,33 @@
-# jekyll-uno
+# Richard Stiskalek's website
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+A Jekyll site hosted on GitHub Pages, styled after [Academic by Paul Le](https://github.com/LeNPaul/academic).
+The adaptation keeps Academic's typography, white background, top navigation, two-column introduction, and section dividers, with restrained blue accents and local CSS without Bootstrap or JavaScript navigation.
+The upstream reference is commit `5303e549d057dc1a29112e5c38668ffb2725364a`; its MIT licence is preserved in `LICENSE-academic.txt`.
 
-> :warning:
-  This theme requires ruby and rubygems installed
+## Local preview
 
-### Features
-
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
-
----
-
-### Install and Test
-
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
-
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
-
-If you would like to run without using the `github-pages` gem, update your Gemfile to the following:
-
+```sh
+bundle install
+bundle exec jekyll serve
 ```
-source 'https://rubygems.org'
-gem 'jekyll-paginate'
-gem 'jekyll-watch'
-gem 'kramdown'
-gem 'kramdown-parser-gfm'
+
+Open <http://localhost:4000>.
+
+## Content
+
+- `index.md`: introduction, background, and contact; `<!--more-->` separates the introduction beside the portrait from the full-width sections below.
+- `research.md`, `news.md`, `blog.html`, and `cv.md`: existing research, updates, blog links, and full-page PDF CV link.
+- `cv.md` forwards the existing `/cv` address to `images/CV.pdf`; the navigation opens the PDF directly.
+- `_config.yml`: site identity, contact details, and navigation.
+- `css/main.scss`: layout, typography, and responsive styles.
+- `_layouts/` and `_includes/`: shared page templates.
+
+## Verification
+
+```sh
+bundle exec jekyll build
+python3 scripts/check_site.py
 ```
----
 
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
-
-![jekyll-uno - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+Pushing `master` triggers the existing GitHub Pages deployment workflow.
+The previous Jekyll-Uno site is preserved on `backup/uno-before-academic-2026-09-07` at commit `54e3255`.

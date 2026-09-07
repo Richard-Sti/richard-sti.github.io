@@ -1,80 +1,12 @@
-<span class="mobile btn-mobile-menu">
-  <i class="icon icon-list btn-mobile-menu__icon"></i>
-  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-</span>
-
-<header class="panel-cover {% if site.disable_landing_page %}panel-cover--collapsed{% endif %}"
-  style="background-image: url({{ site.baseurl }}/images/cover.jpg); background-position: center 35%;">
-  <div class="panel-main">
-
-    <div class="panel-main__inner panel-inverted">
-      <div class="panel-main__content">
-        <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
-          <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
-        </a>
-        <hr class="panel-cover__divider">
-        <p class="panel-cover__description">{{ site.description }}</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary">
-
-        <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/" title="link to about me" class="about-button">About</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/research" title="link to my research" class="research-button">Research</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/updates" title="link to updates" class="updates-button">Updates</a></li>
-            </ul>
-
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/blog" title="link to my blog" class="blog-button">Blog</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/cv" title="link to my CV" class="CV-button">CV</a></li>
-              <li class="navigation__item"><a href="https://ui.adsabs.harvard.edu/public-libraries/a6A7dKJOSwmV4heJ0LQ-0w" title="link to my ADS library" class="ads-button" target="_blank">ADS</a></li>
-            </ul>
-
-          </nav>
-
-          <nav class="cover-navigation navigation--social">
-            <ul class="navigation">
-
-            {% if site.author.linkedin_username %}
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.author.github_username %}
-              <!-- GitHub -->
-              <li class="navigation__item">
-                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-            {% endif %}
-
-            {% if site.author.email %}
-              <!-- Email -->
-              <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
-                </a>
-              </li>
-            {% endif %}
-
-            </ul>
-          </nav>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="panel-cover--overlay"></div>
+<header class="site-header">
+  <div class="site-identity">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <p class="site-description">{{ site.description }}</p>
   </div>
+  <nav class="site-navigation" aria-label="Main navigation">
+    {% for item in site.navigation %}
+    <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+    <a href="https://ui.adsabs.harvard.edu/public-libraries/a6A7dKJOSwmV4heJ0LQ-0w">ADS</a>
+  </nav>
 </header>
