@@ -8,8 +8,34 @@ layout: default
       <h1>{{ page.title }}</h1>
       {{ sections.first }}
     </div>
-    <img class="profile-image" src="{{ '/images/profile.jpg' | relative_url }}" alt="Richard Stiskalek" width="1868" height="2141">
+    <div>
+      <img class="profile-image" src="{{ '/images/profile.jpg' | relative_url }}" alt="Richard Stiskalek" width="1868" height="2141">
+      <nav class="profile-links" aria-label="Contact and research profiles">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="{{ site.author.ads_url }}">ADS</a>
+        <a href="https://github.com/{{ site.author.github_username }}">GitHub</a>
+        <a href="https://orcid.org/{{ site.author.orcid }}">ORCID</a>
+      </nav>
+    </div>
   </div>
+  <section class="latest-updates page-content" aria-labelledby="latest-updates-title">
+    <h2 id="latest-updates-title">Latest updates</h2>
+    <ul>
+      {% capture updates_source %}{% include_relative news.md %}{% endcapture %}
+      {% assign lines = updates_source | newline_to_br | split: '<br />' %}
+      {% assign count = 0 %}
+      {% for line in lines %}
+        {% assign update = line | strip %}
+        {% assign prefix = update | slice: 0, 2 %}
+        {% if prefix == '- ' %}
+          <li>{{ update | remove_first: '- ' | markdownify }}</li>
+          {% assign count = count | plus: 1 %}
+          {% if count == 3 %}{% break %}{% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <a href="{{ '/updates' | relative_url }}">All updates →</a>
+  </section>
   <div class="page-content">
     {{ sections.last }}
   </div>

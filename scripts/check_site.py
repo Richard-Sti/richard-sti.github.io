@@ -13,6 +13,9 @@ class Page(HTMLParser):
     def handle_starttag(self, tag, attrs):
         self.elements.append((tag, dict(attrs)))
 
+    def handle_endtag(self, tag):
+        self.elements.append(("/" + tag, {}))
+
 
 root = Path(__file__).resolve().parents[1] / "_site"
 expected = {"/", "/research", "/updates", "/blog", "/cv"}
@@ -52,5 +55,13 @@ for path in pages:
             target = root / local.lstrip("/") if local.startswith("/") else path.parent / local
             candidates = [target, target / "index.html", Path(str(target) + ".html")]
             assert any(candidate.is_file() for candidate in candidates), f"Broken link: {path}: {local}"
+
+home = Page(root / "index.html").elements
+start = next(i for i, (tag, attrs) in enumerate(home)
+             if tag == "section" and attrs.get("aria-labelledby") == "latest-updates-title")
+end = next(i for i in range(start, len(home)) if home[i][0] == "/section")
+assert sum(tag == "li" for tag, _ in home[start:end]) == 3, "Show the three latest updates"
+assert any(tag == "a" and attrs.get("href") == "https://orcid.org/0000-0002-0986-314X"
+           for tag, attrs in home), "Missing ORCID profile link"
 
 print(f"Checked {len(pages)} pages: navigation, local links/assets, and basic accessibility passed.")

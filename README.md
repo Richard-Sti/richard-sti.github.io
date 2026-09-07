@@ -16,6 +16,7 @@ Open <http://localhost:4000>.
 ## Content
 
 - `index.md`: introduction, background, and contact; `<!--more-->` separates the introduction beside the portrait from the full-width sections below.
+- The homepage shows the first three bullet entries from `news.md`; keep updates newest first.
 - `research.md`, `news.md`, `blog.html`, and `cv.md`: existing research, updates, blog links, and full-page PDF CV link.
 - `cv.md` forwards the existing `/cv` address to `images/CV.pdf`; the navigation opens the PDF directly.
 - `_config.yml`: site identity, contact details, and navigation.

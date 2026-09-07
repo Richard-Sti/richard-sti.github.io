@@ -48,6 +48,7 @@ a:focus-visible {
 
 .site-identity { max-width: 520px; }
 .site-title { font-size: 24px; font-weight: 700; text-decoration: none; }
+.site-title, .site-title:hover { color: #000; }
 .site-description { margin: 2px 0 0; font-size: 15px; }
 
 .site-navigation, .social-links {
@@ -61,7 +62,7 @@ a:focus-visible {
 .site-navigation a:hover, .site-navigation a[aria-current="page"] { color: #285c7e; text-decoration: underline; }
 
 h1, h2, h3, h4 {
-  color: #234e70;
+  color: #000;
   line-height: 1.25;
   font-weight: 700;
 }
@@ -95,6 +96,14 @@ li { margin-bottom: 10px; }
 
 img { max-width: 100%; height: auto; }
 .profile-image { display: block; width: 100%; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 16px; font-size: 14px; }
+.profile-links a { padding: 4px 0; }
+
+.publication-title { margin: 28px 0 6px; font-size: 18px; line-height: 1.4; }
+.publication-authors, .publication-meta { font-size: 14px; line-height: 1.6; color: #5c636a; }
+.publication-authors { margin-bottom: 4px; }
+.publication-meta { margin-bottom: 24px; }
+.latest-updates li p { margin-bottom: 12px; }
 
 .site-footer {
   display: flex;

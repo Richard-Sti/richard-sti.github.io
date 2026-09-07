@@ -7,6 +7,6 @@
     {% for item in site.navigation %}
     <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
     {% endfor %}
-    <a href="https://ui.adsabs.harvard.edu/public-libraries/a6A7dKJOSwmV4heJ0LQ-0w">ADS</a>
+    <a href="{{ site.author.ads_url }}">ADS</a>
   </nav>
 </header>
