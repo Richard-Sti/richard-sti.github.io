@@ -13,6 +13,8 @@ navigation:
     url: /
   - title: Research
     url: /research
+  - title: Methods
+    url: /methods
   - title: Updates
     url: /updates
   - title: Blog
