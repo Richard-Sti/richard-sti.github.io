@@ -18,7 +18,7 @@ Open <http://localhost:4000>.
 - `index.md`: introduction, background, and contact; `<!--more-->` separates the introduction beside the portrait from the full-width sections below.
 - The homepage shows the first three bullet entries from `news.md`; keep updates newest first.
 - `research.md`, `news.md`, `blog.html`, and `cv.md`: existing research, updates, blog links, and full-page PDF CV link.
-- `cv.md` forwards the existing `/cv` address to `images/CV.pdf`; the navigation opens the PDF directly.
+- `cv.md` forwards `/cv` to `images/CV.pdf`; the navigation links `/cv` so the PDF path is never advertised. `404.html` catches dead links from the pre-Jekyll site.
 - `_config.yml`: site identity, contact details, and navigation.
 - `css/main.scss`: layout, typography, and responsive styles.
 - `_layouts/` and `_includes/`: shared page templates.

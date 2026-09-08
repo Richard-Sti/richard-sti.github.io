@@ -1,0 +1,21 @@
+---
+layout: default
+title: Page not found
+tab_title: Not found
+permalink: /404.html
+robots: noindex, follow
+description: "This page does not exist. Links to Richard Stiskalek's CV, research, and publication list."
+sitemap:
+  exclude: 'yes'
+---
+<article class="page-content">
+  <h1>Page not found</h1>
+  <p>This address does not exist. Some older links from a previous version of
+  this site have moved &mdash; the current locations are:</p>
+  <ul>
+    <li><a href="{{ '/cv' | relative_url }}">Curriculum vitae</a> (PDF)</li>
+    <li><a href="{{ '/research' | relative_url }}">Research</a></li>
+    <li><a href="{{ site.author.ads_url }}">Full publication list on ADS</a></li>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+  </ul>
+</article>
