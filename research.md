@@ -11,7 +11,7 @@ For a full list of publications, see my [CV](/cv) or [ADS library](https://ui.ad
 
 ## Digital twins and the initial conditions of the local Universe
 
-Digital twins of the local Universe are simulations whose initial conditions are inferred to reproduce the specific structures -- galaxies, clusters, voids, filaments -- that we observe in our cosmic neighbourhood, rather than a random patch of the Universe. I am interested in exploiting these to learn about cosmology and galaxy formation: mapping large-scale flows, precision measurements of the expansion rate, semi-analytical modelling and object-by-object tests of galaxy formation models, and ultimately field-level inference of the initial conditions and cosmological parameters.
+Digital twins of the local Universe are simulations whose initial conditions are inferred to reproduce the specific structures -- galaxies, clusters, voids, filaments -- that we observe in our cosmic neighbourhood, rather than a random patch of the Universe. I am interested in exploiting these to learn about cosmology and galaxy formation: mapping large-scale flows, measuring the expansion rate to high precision, testing galaxy formation models object by object with semi-analytical modelling, and ultimately inferring the initial conditions and cosmological parameters at the field level.
 
 ### The Velocity Field Olympics
 {: .publication-title}
@@ -36,7 +36,7 @@ MNRAS 540:716 (2025) · [arXiv](https://arxiv.org/abs/2505.10682)
 
 I develop new statistical frameworks for distance-ladder cosmology based on rigorous Bayesian forward modelling. A particular focus is exploiting relatively small samples of distance indicators, such as Cepheids, tip of the red giant branch (TRGB) stars, and masers, that are otherwise dominated by cosmic variance, using digital twins of the local Universe to suppress it and deliver precision measurements of the Hubble constant. Upcoming goals include delivering a forward model of the entire distance ladder -- from Milky Way stars to distant supernovae -- and developing a novel scalable framework for the LSST era.
 
-### Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia-HST calibration
+### Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia--HST calibration
 {: .publication-title}
 
 **R. Stiskalek**, A. Riess, H. Desmond, G. Lavaux, D. Scolnic
@@ -66,18 +66,18 @@ MNRAS:stag1144 (2025) · [arXiv](https://arxiv.org/abs/2511.03394) · [Journal](
 
 ## Peculiar velocities
 
-Peculiar velocities -- deviations from the smooth Hubble flow -- can be inferred by comparing a galaxy's observed redshift with an independent estimate of its distance from scaling relations such as Tully-Fisher, fundamental plane, or supernova standardisation. I use these surveys to constrain cosmological parameters such as f&sigma;&#x2088;, test the cosmological principle through searches for anisotropies in the local expansion rate, and ultimately to build the next generation of digital twins of the local Universe.
+Peculiar velocities -- deviations from the smooth Hubble flow -- can be inferred by comparing a galaxy's observed redshift with an independent distance estimate, obtained from a scaling relation such as Tully--Fisher or the fundamental plane, or from supernova standardisation. I use these surveys to constrain cosmological parameters such as f&sigma;&#x2088;, test the cosmological principle through searches for anisotropies in the local expansion rate, and ultimately to build the next generation of digital twins of the local Universe.
 
-### S&#x2088; from Tully-Fisher, fundamental plane, and supernova distances agree with Planck
+### S&#x2088; from peculiar velocities: agreement with Planck for Tully--Fisher and supernovae, tension for the fundamental plane
 {: .publication-title}
 
 **R. Stiskalek**
 {: .publication-authors}
 
-MNRAS 550:stag1266 (2025) · [arXiv](https://arxiv.org/abs/2509.20235) · [Journal](https://doi.org/10.1093/mnras/stag1266)
+MNRAS 550:stag1266 (2026) · [arXiv](https://arxiv.org/abs/2509.20235) · [Journal](https://doi.org/10.1093/mnras/stag1266)
 {: .publication-meta}
 
-### No evidence for local H&#x2080; anisotropy from Tully-Fisher or supernova distances
+### No evidence for local H&#x2080; anisotropy from Tully--Fisher or supernova distances
 {: .publication-title}
 
 **R. Stiskalek**, H. Desmond, G. Lavaux
@@ -103,7 +103,7 @@ MNRAS 506:3205 (2021) · [arXiv](https://arxiv.org/abs/2101.02765) · [Journal](
 
 ## Galaxy dynamics
 
-I am interested in the empirical correlations governing the dynamics of disc galaxies, such as the radial acceleration relation (RAR), the baryonic Tully-Fisher relation (BTFR), and others. A particular focus has been establishing the RAR -- the tight correlation between baryonic and total dynamical accelerations -- as the fundamental organising principle of late-type galaxy dynamics, and exploring what this implies for galaxy formation and modified gravity.
+I am interested in the empirical correlations governing the dynamics of disc galaxies, such as the radial acceleration relation (RAR) and the baryonic Tully--Fisher relation (BTFR). A particular focus has been establishing the RAR -- the tight correlation between baryonic and total dynamical accelerations -- as the fundamental organising principle of late-type galaxy dynamics, and exploring what this implies for galaxy formation and modified gravity.
 
 ### On the fundamentality of the radial acceleration relation for late-type galaxy dynamics
 {: .publication-title}
@@ -120,7 +120,7 @@ MNRAS 525:6130 (2023) · [arXiv](https://arxiv.org/abs/2305.19978) · [Journal](
 F. Boreiko, T. Yasin, H. Desmond, **R. Stiskalek**, M. J. Jarvis
 {: .publication-authors}
 
-MNRAS, in press (2026) · [arXiv](https://arxiv.org/abs/2601.07799)
+MNRAS in press (2026) · [arXiv](https://arxiv.org/abs/2601.07799)
 {: .publication-meta}
 
 
@@ -128,7 +128,7 @@ MNRAS, in press (2026) · [arXiv](https://arxiv.org/abs/2601.07799)
 
 I am interested in graph-based methods and geometric deep learning to capture physical structure in cosmological datasets, and simulation-based inference (SBI) to perform implicit likelihood inference where traditional likelihoods are intractable -- including applications to JWST data to infer the ionising photon contributions of high-redshift galaxies. I commonly employ normalising flows, Gaussian processes, neural networks, and tree-based models to study, for example, the scatter in the galaxy--halo connection and to quantify uncertainties in astrophysical models. I also work extensively with Hamiltonian Monte Carlo and gradient-based samplers for scalable Bayesian inference.
 
-### The scatter in the galaxy-halo connection: a machine learning analysis
+### The scatter in the galaxy--halo connection: a machine learning analysis
 {: .publication-title}
 
 **R. Stiskalek**, D. J. Bartlett, H. Desmond, D. Anbajagane
@@ -158,7 +158,7 @@ NeurIPS 2025 (2025) · [arXiv](https://arxiv.org/abs/2507.03707)
 
 ## Gravitational-wave astronomy
 
-During my master's degree, I worked on gravitational-wave data analysis and strong-field lensing of gravitational waves. This included testing the isotropy of binary black hole mergers with LIGO/Virgo data, exploring transdimensional parameter estimation, and studying frequency- and polarisation-dependent lensing effects in the gravitational spin Hall effect.
+During my master's degree, I worked on gravitational-wave data analysis and strong-field lensing. This included testing the isotropy of binary black hole mergers with LIGO/Virgo data, exploring transdimensional parameter estimation, and studying frequency- and polarisation-dependent lensing in the gravitational spin Hall effect.
 
 ### Are stellar-mass binary black hole mergers isotropically distributed?
 {: .publication-title}
@@ -175,5 +175,5 @@ MNRAS 501:970 (2021) · [arXiv](https://arxiv.org/abs/2003.02919) · [Journal](h
 M. A. Oancea, **R. Stiskalek**, M. Zumalac&aacute;rregui
 {: .publication-authors}
 
-Phys. Rev. D 109, 124045 (2024) · [arXiv](https://arxiv.org/abs/2209.06459) · [Journal](https://doi.org/10.1103/PhysRevD.109.124045)
+Phys. Rev. D 109:124045 (2024) · [arXiv](https://arxiv.org/abs/2209.06459) · [Journal](https://doi.org/10.1103/PhysRevD.109.124045)
 {: .publication-meta}

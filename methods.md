@@ -5,7 +5,7 @@ permalink: /methods
 description: "Richard Stiskalek's statistical and computational skills: Bayesian modelling, simulation-based inference, machine learning, and scientific software in Python and JAX."
 ---
 
-I develop these methods in cosmology, where the structure and expansion of the Universe must be inferred from incomplete observations. [Research](/research) covers the applications.
+I develop the methods below in cosmology, where the structure and expansion of the Universe must be inferred from incomplete observations. [Research](/research) covers the applications.
 
 My approach is Bayesian. I sample from posterior distributions over model parameters conditioned on the observed data, quantifying uncertainty in estimates and predictions. I run computationally expensive models on GPUs and high-performance computing clusters. This includes cosmological simulation code that I develop for GPUs.
 
@@ -25,10 +25,10 @@ My applied machine-learning work includes:
 
 ## Combining noisy and incomplete data
 
-I work with noisy, incomplete data in which missing observations and correlated errors can affect the result. I start with a model of the underlying population, then model individual observations, including their measurement errors and the process that determines whether they enter the dataset. I account for shared calibrations and other dependencies within this hierarchical Bayesian model and infer its parameters to make predictions with uncertainty at both the population and individual levels.
+I work with noisy, incomplete data in which missing observations and correlated errors can bias the inferred parameters. I start with a model of the underlying population, then model individual observations, including their measurement errors and the process that determines whether they enter the dataset. I account for shared calibrations and other dependencies within this hierarchical Bayesian model and infer its parameters to make predictions with uncertainty at both the population and individual levels.
 
 ## Validation on simulated data
 
-I run validation campaigns on simulated datasets with known inputs, testing the full inference pipeline for bias and calibrated uncertainty. I vary the data-generating assumptions, priors, and model choices to identify failure modes, and use sampling diagnostics to distinguish convergence problems from weak constraints in the data.
+I run validation campaigns on simulated datasets with known inputs, testing the full inference pipeline for bias and uncertainty calibration. I vary the data-generating assumptions, priors, and model choices to identify failure modes, and use sampling diagnostics to distinguish convergence problems from weak constraints in the data.
 
 My code is on [GitHub](https://github.com/Richard-Sti), though not all of it is public.

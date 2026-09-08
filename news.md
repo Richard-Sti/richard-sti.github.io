@@ -12,7 +12,7 @@ description: "Recent papers, preprints, and research updates from Richard Stiska
 
 ## July 2026
 
-- **12 Jul** — Granted leave to supplicate for my DPhil — Oxford's formal confirmation that all requirements for the degree have been met.
+- **12 Jul** — Granted leave to supplicate for my DPhil: Oxford's formal confirmation that all requirements for the degree have been met.
 - **8 Jul** — Talk *A supernova-free Cepheid route to H₀* at the Hubble & BAO Tensions conference, ICG Portsmouth.
 - **6 Jul** — My paper *Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models* accepted in ApJ. [arXiv:2606.10024](https://arxiv.org/abs/2606.10024)
 - **2 Jul** — My paper *Forward-modelling Milky Way Cepheids: selection effects and physical priors in the Gaia–HST calibration* accepted in MNRAS. [arXiv:2603.09880](https://arxiv.org/abs/2603.09880)
@@ -30,7 +30,7 @@ description: "Recent papers, preprints, and research updates from Richard Stiska
 ## May 2026
 
 - **29 May** — Passed my DPhil viva, examined by David Alonso and Kaisey Mandel.
-- **1 May** — Began my Hintze Prize Fellowship in Astrophysics (Cosmology) at the University of Oxford.
+- **1 May** — Began my Hintze Prize Fellowship in Cosmology at the University of Oxford.
 
 ## April 2026
 
