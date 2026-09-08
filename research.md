@@ -31,6 +31,24 @@ S. McAlpine, J. Jasche, M. Ata, G. Lavaux, **R. Stiskalek**, C. S. Frenk, A. Jen
 MNRAS 540:716 (2025) · [arXiv](https://arxiv.org/abs/2505.10682)
 {: .publication-meta}
 
+### Revisiting the Great Attractor
+{: .publication-title}
+
+**R. Stiskalek**, H. Desmond, S. McAlpine, G. Lavaux, J. Jasche, M. J. Hudson
+{: .publication-authors}
+
+OJA accepted (2026) · [arXiv](https://arxiv.org/abs/2601.08524)
+{: .publication-meta}
+
+### Learning the Universe: Constrained simulations of the Coma galaxy cluster -- I. Radial X-ray and Compton-y signatures
+{: .publication-title}
+
+U. P. Steinwandel, S. McAlpine, **R. Stiskalek**, et al.
+{: .publication-authors}
+
+Preprint (2026) · [arXiv](https://arxiv.org/abs/2606.10028)
+{: .publication-meta}
+
 
 ## Distance-ladder cosmology
 
@@ -63,6 +81,15 @@ H. Desmond, **R. Stiskalek**, J. A. Najera, I. Banik
 MNRAS:stag1144 (2025) · [arXiv](https://arxiv.org/abs/2511.03394) · [Journal](https://doi.org/10.1093/mnras/stag1144)
 {: .publication-meta}
 
+### Forward-modelling the Tolman and distance-duality tests with IllustrisTNG
+{: .publication-title}
+
+H. Desmond, T. Yasin, **R. Stiskalek**, S. von Hausegger
+{: .publication-authors}
+
+Preprint (2026) · [arXiv](https://arxiv.org/abs/2606.27182)
+{: .publication-meta}
+
 
 ## Peculiar velocities
 
@@ -86,6 +113,15 @@ MNRAS 550:stag1266 (2026) · [arXiv](https://arxiv.org/abs/2509.20235) · [Journ
 MNRAS 546:staf2048 (2025) · [arXiv](https://arxiv.org/abs/2509.14997) · [Journal](https://doi.org/10.1093/mnras/staf2048)
 {: .publication-meta}
 
+### Testing cosmic anisotropy with cluster scaling relations
+{: .publication-title}
+
+T. Yasin, **R. Stiskalek**, H. Desmond, S. von Hausegger, P. G. Ferreira
+{: .publication-authors}
+
+Preprint (2026) · [arXiv](https://arxiv.org/abs/2602.06007)
+{: .publication-meta}
+
 
 ## Galaxy--halo connection
 
@@ -98,6 +134,24 @@ I am interested in all aspects of the galaxy--halo connection, from empirical to
 {: .publication-authors}
 
 MNRAS 506:3205 (2021) · [arXiv](https://arxiv.org/abs/2101.02765) · [Journal](https://doi.org/10.1093/mnras/stab1845)
+{: .publication-meta}
+
+### Learning the Universe with cosmological rescaling of merger trees and semi-analytic galaxy formation models
+{: .publication-title}
+
+**R. Stiskalek**, L. A. Perez, S. Genel, R. S. Somerville, R. E. Angulo, S. Contreras
+{: .publication-authors}
+
+ApJ accepted (2026) · [arXiv](https://arxiv.org/abs/2606.10024)
+{: .publication-meta}
+
+### Introducing sapphire: Towards Hybrid Physics-Informed, Data-Driven Modeling of Galaxy Formation
+{: .publication-title}
+
+V. Pandya, ..., **R. Stiskalek**, et al.
+{: .publication-authors}
+
+ApJ accepted (2026) · [arXiv](https://arxiv.org/abs/2604.06318)
 {: .publication-meta}
 
 
@@ -149,7 +203,7 @@ MNRAS 537:2273 (2025) · [arXiv](https://arxiv.org/abs/2405.09720)
 ### CosmoBench: A Multiscale, Multiview, Multitask Cosmology Benchmark for Geometric Deep Learning
 {: .publication-title}
 
-N. Huang, **R. Stiskalek**, J.-Y. Lee, A. E. Bayer, C. C. Margossian, C. K. Jespersen, L. A. Perez, L. K. Saul, F. Villaescusa-Navarro
+N. Huang, **R. Stiskalek**, et al.
 {: .publication-authors}
 
 NeurIPS 2025 (2025) · [arXiv](https://arxiv.org/abs/2507.03707)

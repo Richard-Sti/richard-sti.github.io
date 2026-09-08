@@ -1,6 +1,10 @@
 <header class="site-header">
   <div class="site-identity">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {%- if page.url == '/' -%}
+      <h1 class="site-name"><a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    {%- else -%}
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {%- endif -%}
     <p class="site-description">{{ site.description }}</p>
   </div>
   <nav class="site-navigation" aria-label="Main navigation">

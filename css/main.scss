@@ -47,6 +47,7 @@ a:focus-visible {
 }
 
 .site-identity { max-width: 520px; }
+.site-name { margin: 0; }
 .site-title { font-size: 24px; font-weight: 700; text-decoration: none; }
 .site-title, .site-title:hover { color: #000; }
 .site-description { margin: 2px 0 0; font-size: 15px; }
@@ -119,7 +120,6 @@ img { max-width: 100%; height: auto; }
 
 .site-footer p { margin-bottom: 6px; }
 .post-meta { margin-bottom: 12px; color: #626970; font-size: 14px; }
-.tags, .categories { display: flex; flex-wrap: wrap; gap: 16px; }
 
 pre { overflow-x: auto; padding: 16px; }
 code { font-size: 0.9em; }

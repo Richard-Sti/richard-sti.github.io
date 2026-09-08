@@ -23,4 +23,6 @@ While at Oxford, I held a [Pre-Doctoral Fellowship](https://www.simonsfoundation
 
 ## Contact
 
-I am always happy to chat about research, potential collaborations, or just science in general -- feel free to drop me an email at [richard.stiskalek@physics.ox.ac.uk](mailto:richard.stiskalek@physics.ox.ac.uk).
+I am always happy to talk about research, collaborations, or science in general. Beyond cosmology, I advise research groups and organisations on Bayesian modelling and inference for noisy or incomplete data, and on accelerating inference for expensive models with GPUs, emulation, and gradient-based sampling.
+
+For research and academic enquiries, email me at [richard.stiskalek@physics.ox.ac.uk](mailto:richard.stiskalek@physics.ox.ac.uk), otherwise [richard.stiskalek@protonmail.com](mailto:richard.stiskalek@protonmail.com).

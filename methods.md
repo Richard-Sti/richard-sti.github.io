@@ -31,4 +31,8 @@ I work with noisy, incomplete data in which missing observations and correlated 
 
 I run validation campaigns on simulated datasets with known inputs, testing the full inference pipeline for bias and uncertainty calibration. I vary the data-generating assumptions, priors, and model choices to identify failure modes, and use sampling diagnostics to distinguish convergence problems from weak constraints in the data.
 
-My code is on [GitHub](https://github.com/Richard-Sti), though not all of it is public.
+## Beyond cosmology
+
+None of the above is specific to astronomy. The same approach -- a generative model of the population, explicit treatment of measurement error and selection, and validation on simulated data with known answers -- applies wherever measurements are noisy, samples are incomplete, and the forward model is expensive to evaluate. Typical examples are calibrating measurements from several instruments with shared systematics, inferring population properties from censored or truncated samples, and replacing an expensive simulator with an emulator so that inference becomes tractable. I occasionally work with groups outside astrophysics on problems of this kind and am happy to discuss new ones.
+
+Much of my code is on [GitHub](https://github.com/Richard-Sti).
