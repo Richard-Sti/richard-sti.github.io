@@ -7,15 +7,15 @@ description: "Richard Stiskalek's statistical and computational skills: Bayesian
 
 I develop these methods in cosmology, where the structure and expansion of the Universe must be inferred from incomplete observations. [Research](/research) covers the applications.
 
-My approach is Bayesian. I sample posterior distributions over model parameters conditioned on the observed data, so that estimates and predictions come with their uncertainties. The models are expensive to evaluate and I run them on GPUs and high-performance computing clusters, including cosmological simulation code that I write for GPUs.
+My approach is Bayesian. I sample from posterior distributions over model parameters conditioned on the observed data, quantifying uncertainty in estimates and predictions. I run computationally expensive models on GPUs and high-performance computing clusters. This includes cosmological simulation code that I develop for GPUs.
 
 I work mainly in Python with `JAX`, `NumPyro`, and `BlackJAX`, alongside `NumPy` and `SciPy`. I also use Julia, C++, and Fortran.
 
 ## Machine learning and scalable inference
 
-I build emulators for expensive, high-dimensional models, usually on 3D fields, so that parameter inference becomes tractable. When a model can generate data but its likelihood is intractable, I use simulation-based inference and estimate the posterior from simulations alone.
+I build emulators for expensive, high-dimensional models, usually working with 3D fields, to make parameter inference tractable. When a model can generate data but its likelihood is intractable, I use simulation-based inference to estimate the posterior from observed data using models trained on simulations.
 
-I also make numerical models differentiable so that Hamiltonian Monte Carlo can reach millions of parameters, and reparametrise and precondition them where the posterior geometry is difficult. For emulation, I cut memory use to fit large models onto a single GPU and shard training across several.
+I also make numerical models differentiable to support Hamiltonian Monte Carlo inference over millions of parameters. I use reparametrisation and preconditioning to improve sampling when the posterior geometry is difficult. For emulation, I reduce memory use to fit large models on a single GPU and distribute training across multiple GPUs.
 
 My applied machine-learning work includes:
 
@@ -25,10 +25,10 @@ My applied machine-learning work includes:
 
 ## Combining noisy and incomplete data
 
-I work with noisy, incomplete data in which missing observations and correlated errors can affect the result. I start with a model of the underlying population, then model individual observations, including their measurement errors and the process that determines whether they enter the dataset. I account for shared calibrations and other dependencies within this hierarchical Bayesian model, and fit it to make predictions with uncertainty at both the population and individual levels.
+I work with noisy, incomplete data in which missing observations and correlated errors can affect the result. I start with a model of the underlying population, then model individual observations, including their measurement errors and the process that determines whether they enter the dataset. I account for shared calibrations and other dependencies within this hierarchical Bayesian model and infer its parameters to make predictions with uncertainty at both the population and individual levels.
 
 ## Validation on simulated data
 
 I run validation campaigns on simulated datasets with known inputs, testing the full inference pipeline for bias and calibrated uncertainty. I vary the data-generating assumptions, priors, and model choices to identify failure modes, and use sampling diagnostics to distinguish convergence problems from weak constraints in the data.
 
-Alongside the models I write the tests and workflows that generate the simulations and analyse the output. My code is on [GitHub](https://github.com/Richard-Sti).
+My code is on [GitHub](https://github.com/Richard-Sti), though not all of it is public.
