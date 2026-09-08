@@ -40,7 +40,7 @@ for path in pages:
                  if tag == "meta" and attrs.get("name") == "viewport"]
     assert viewports == ["width=device-width, initial-scale=1"], path
     links = {attrs.get("href") for tag, attrs in elements if tag == "a"}
-    assert (expected - {"/cv"}) | {"/images/CV.pdf"} <= links, f"Missing navigation on {path}"
+    assert expected <= links, f"Missing navigation on {path}"
     for tag, attrs in elements:
         if tag == "img":
             assert attrs.get("alt"), f"Missing image description: {path}"
