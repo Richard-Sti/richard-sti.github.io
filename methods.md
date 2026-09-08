@@ -5,34 +5,30 @@ permalink: /methods
 description: "Richard Stiskalek's statistical and computational skills: Bayesian modelling, simulation-based inference, machine learning, and scientific software in Python and JAX."
 ---
 
-I build models and infer posterior distributions over their parameters conditioned on observed data. I also run computationally expensive simulations on state-of-the-art GPUs and high-performance computing clusters, optimising runtime and memory use.
+I develop these methods in cosmology, where the structure and expansion of the Universe must be inferred from incomplete observations. [Research](/research) covers the applications.
+
+My approach is Bayesian. I sample posterior distributions over model parameters conditioned on the observed data, so that estimates and predictions come with their uncertainties. The models are expensive to evaluate and I run them on GPUs and high-performance computing clusters, including cosmological simulation code that I write for GPUs.
 
 I work mainly in Python with `JAX`, `NumPyro`, and `BlackJAX`, alongside `NumPy` and `SciPy`. I also use Julia, C++, and Fortran.
 
-Here are the main methods I use; the applications are on my [Research](/research) page.
+## Machine learning and scalable inference
 
-## Selection effects and incomplete data
+I build emulators for expensive, high-dimensional models, usually on 3D fields, so that parameter inference becomes tractable. When a model can generate data but its likelihood is intractable, I use simulation-based inference and estimate the posterior from simulations alone.
 
-Brighter galaxies are easier to detect. If we ignore this when analysing a survey, we can misjudge the properties of the galaxy population. I model how objects enter a sample as part of the inference, including uncertainty in the detection process. I use this approach in work on galaxy populations and measurements of the expansion rate.
+I also make numerical models differentiable so that Hamiltonian Monte Carlo can reach millions of parameters, and reparametrise and precondition them where the posterior geometry is difficult. For emulation, I cut memory use to fit large models onto a single GPU and shard training across several.
 
-## Hierarchical Bayesian models
+My applied machine-learning work includes:
 
-I often combine measurements with different calibrations and sources of scatter. I use hierarchical models to estimate their shared parameters and individual offsets together, carrying calibration uncertainty through to the result. Where datasets share calibration measurements, I account for the correlations this introduces.
+- **Probabilistic prediction:** neural-network ensembles that predict galaxy properties and their scatter from simulation data ([paper](https://arxiv.org/abs/2202.14006)).
+- **Density estimation:** mixture density networks that infer distributions over unobserved galaxy luminosities from measured brightnesses ([paper](https://arxiv.org/abs/2405.09720)).
+- **Graph-based learning:** benchmarking graph neural networks on 3D point clouds and branching histories to predict parameters and motions ([CosmoBench](https://arxiv.org/abs/2507.03707)).
 
-## Simulation-based inference
+## Combining noisy and incomplete data
 
-For some problems, I can simulate observations but cannot readily evaluate their likelihood. I use methods such as normalising flows to estimate parameter distributions from simulated data. I test the inference on simulations with known inputs to check for bias and whether the uncertainties are well calibrated.
+I work with noisy, incomplete data in which missing observations and correlated errors can affect the result. I start with a model of the underlying population, then model individual observations, including their measurement errors and the process that determines whether they enter the dataset. I account for shared calibrations and other dependencies within this hierarchical Bayesian model, and fit it to make predictions with uncertainty at both the population and individual levels.
 
-## High-dimensional inference
+## Validation on simulated data
 
-Reconstructing the initial conditions of the Universe can require millions of parameters. I work with Hamiltonian Monte Carlo and other gradient-based samplers, using JAX to differentiate through numerical simulations and run them on GPUs. I work on reparametrisation and preconditioning to improve sampling, and use convergence diagnostics to assess the runs.
+I run validation campaigns on simulated datasets with known inputs, testing the full inference pipeline for bias and calibrated uncertainty. I vary the data-generating assumptions, priors, and model choices to identify failure modes, and use sampling diagnostics to distinguish convergence problems from weak constraints in the data.
 
-## Checking models and uncertainties
-
-I test models on synthetic data, compare their predictions with observations, and repeat analyses with different priors and modelling assumptions. Simulations with known inputs let me check whether the method recovers those inputs and how often its uncertainty intervals contain them.
-
-## Machine learning and software
-
-I use normalising flows for density estimation, Gaussian processes for interpolation, and neural networks and tree-based models to study relationships in data. I am also interested in graph-based methods for spatial data.
-
-My software runs on GPUs and high-performance computing clusters. Alongside the inference code, I write tests and workflows for generating simulations and analysing results. My projects are on [GitHub](https://github.com/Richard-Sti).
+Alongside the models I write the tests and workflows that generate the simulations and analyse the output. My code is on [GitHub](https://github.com/Richard-Sti).
