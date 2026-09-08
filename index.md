@@ -7,7 +7,7 @@ description: "Richard Stiskalek is a Career Development Research Fellow at St Jo
 
 I am a Career Development Research Fellow at [St John's College, Oxford](https://www.sjc.ox.ac.uk/discover/research/career-development-research-fellows/), and a Hintze Prize Fellow in Cosmology at the [University of Oxford](https://www.physics.ox.ac.uk/research/subdepartment/astrophysics). I study how structure formed in the nearby Universe, out to a few hundred megaparsecs (roughly a billion light-years), and how fast the Universe is expanding.
 
-I specialise in Bayesian inference for noisy measurements and incomplete samples, including datasets with complex calibrations and systematic uncertainties. I develop statistical models and inference software in Python and JAX, using GPUs and high-performance computing clusters to run large simulations and sample models with millions of parameters.
+I specialise in Bayesian inference for noisy measurements and incomplete samples, including datasets with complex calibrations and systematic uncertainties. I develop statistical models and inference software in Python and JAX, using GPUs and high-performance computing clusters to run large simulations and sample models with millions of parameters. I am interested in using agentic systems to accelerate this method development, shortening the path from an idea to an inference pipeline and shifting the effort onto the physical modelling and results interpretation.
 
 I also work on simulation-based inference and differentiable physical models, and use machine learning to emulate expensive, high-dimensional simulations. See [Methods](/methods) for the statistical and computational side of my work, and [Research](/research) for the cosmology.
 
