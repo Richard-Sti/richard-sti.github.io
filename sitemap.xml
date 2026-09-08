@@ -30,7 +30,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" or page.robots contains "noindex" %}
+    {% unless page.sitemap.exclude == "yes" or page.robots contains "noindex" or page.url contains ".css" or page.url contains ".xml" or page.url contains ".txt" or page.url contains ".json" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}

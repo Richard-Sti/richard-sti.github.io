@@ -6,25 +6,35 @@
   <meta name="robots" content="{{ page.robots }}">
   {% endif %}
 
-  <title>{% if page.title %}RS: {{ page.tab_title | default: page.title | escape }}{% else %}RS{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.url == '/' %}
+    {% assign page_title = 'Richard Stiskalek — Cosmologist, University of Oxford' %}
+  {% else %}
+    {% capture page_title %}{{ page.tab_title | default: page.title | escape }} — Richard Stiskalek{% endcapture %}
+  {% endif %}
+  {% assign page_desc = page.description | default: page.excerpt | strip_html | escape | default: site.description %}
+
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
   <meta name="author" content="{{ site.author.name }}">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  {% if site.google_site_verification and site.google_site_verification != '' %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {% endif %}
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
   {% if site.author.twitter_username %}
   <meta name="twitter:creator" content="{{ site.author.twitter_username }}">
   {% endif %}
   <meta name="twitter:image" content="{{ "/images/favicons/galaxy-512.png" | absolute_url }}" />
 
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | escape }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:type" content="{% if page.url == '/' %}profile{% elsif page.date %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
   <meta property="og:image" content="{{ "/images/favicons/galaxy-512.png" | absolute_url }}" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicons/galaxy-32.png' | relative_url }}">
@@ -32,7 +42,51 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/favicons/galaxy-180.png' | relative_url }}">
   <link rel="manifest" href="{{ '/images/favicons/manifest.json' | relative_url }}">
   <meta name="theme-color" content="#ffffff">
-  
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "givenName": "Richard",
+    "familyName": "Stiskalek",
+    "jobTitle": "Hintze Prize Fellow in Astrophysics",
+    "description": "{{ site.description }}",
+    "email": "mailto:{{ site.author.email }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/",
+    "image": "{{ '/images/favicons/galaxy-512.png' | absolute_url }}",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "University of Oxford",
+      "department": {
+        "@type": "Organization",
+        "name": "Department of Physics, Sub-department of Astrophysics"
+      },
+      "url": "https://www.physics.ox.ac.uk/research/subdepartment/astrophysics"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Oxford" },
+      { "@type": "CollegeOrUniversity", "name": "Ludwig Maximilian University of Munich" },
+      { "@type": "CollegeOrUniversity", "name": "University of Glasgow" }
+    ],
+    "knowsAbout": [
+      "Cosmology", "Bayesian inference", "Large-scale structure",
+      "Peculiar velocities", "Hubble constant", "Galaxy formation"
+    ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "https://orcid.org/{{ site.author.orcid }}"
+    },
+    "sameAs": [
+      "https://orcid.org/{{ site.author.orcid }}",
+      "{{ site.author.ads_url }}",
+      "https://github.com/{{ site.author.github_username }}",
+      "https://www.linkedin.com/in/{{ site.author.linkedin_username }}"
+    ]
+  }
+  </script>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-58HLY4WB1S"></script>
   <script>

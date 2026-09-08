@@ -2,6 +2,7 @@
 layout: page
 title: Updates
 permalink: /updates
+description: "Recent papers, preprints, and research updates from Richard Stiskalek, cosmologist at the University of Oxford."
 ---
 
 ## August 2026

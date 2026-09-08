@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research
+description: "Research of Richard Stiskalek: inferring the initial conditions of the local Universe, field-level tests of galaxy formation, peculiar velocities, and the expansion rate."
 ---
 
 My overarching goal is to infer the initial conditions of the local Universe -- the primordial fluctuations from which all nearby structure grew -- and to develop new field-level tests of galaxy formation and cosmology along the way.

@@ -4,6 +4,10 @@ description: 'Hintze Prize Fellow in Astrophysics (Cosmology) at the University 
 url: 'https://richard-sti.github.io'
 baseurl: ''
 
+# Token from Google Search Console -> HTML tag verification method.
+# If left empty, the meta tag is not rendered.
+google_site_verification: ''
+
 navigation:
   - title: About
     url: /

@@ -2,6 +2,7 @@
 layout: home
 title: About me
 tab_title: About
+description: "Richard Stiskalek is a Hintze Prize Fellow in Astrophysics at the University of Oxford, working on Bayesian forward modelling and digital twins of the local Universe."
 ---
 
 I am a Hintze Prize Fellow in Astrophysics (Cosmology) at the [University of Oxford](https://www.physics.ox.ac.uk/research/subdepartment/astrophysics). I completed my DPhil in Astrophysics at the University of Oxford ([Balliol College](https://www.balliol.ox.ac.uk)), where I was a [Snell Exhibitioner](https://en.wikipedia.org/wiki/Snell_Exhibition). I am a member of the [Aquila Consortium](https://aquila-consortium.org), the [Learning the Universe](https://learning-the-universe.org), and the [CAMELS](https://www.camel-simulations.org) collaborations.
