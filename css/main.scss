@@ -51,7 +51,7 @@ a:focus-visible {
 .site-title, .site-title:hover { color: #000; }
 .site-description { margin: 2px 0 0; font-size: 15px; }
 
-.site-navigation, .social-links {
+.site-navigation {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 20px;
@@ -118,8 +118,6 @@ img { max-width: 100%; height: auto; }
 }
 
 .site-footer p { margin-bottom: 6px; }
-.theme-credit { font-size: 13px; }
-.social-links a { padding: 4px 0; }
 .post-meta { margin-bottom: 12px; color: #626970; font-size: 14px; }
 .tags, .categories { display: flex; flex-wrap: wrap; gap: 16px; }
 
