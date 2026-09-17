@@ -5,6 +5,10 @@ permalink: /updates
 description: "Recent papers, preprints, and research updates from Richard Stiskalek, cosmologist at the University of Oxford."
 ---
 
+## September 2026
+
+- **15 Sep** — New preprint: *A reanalysis of the megamaser Hubble constant: from spot catalogues to peculiar velocities* (R. Stiskalek, H. Desmond) on arXiv. [arXiv:2609.17684](https://arxiv.org/abs/2609.17684)
+
 ## August 2026
 
 - **31 Aug** — Our paper *Introducing sapphire: Towards Hybrid Physics-Informed, Data-Driven Modeling of Galaxy Formation* (V. Pandya, …, R. Stiskalek, …) accepted in ApJ. [arXiv:2604.06318](https://arxiv.org/abs/2604.06318)
