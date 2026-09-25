@@ -8,6 +8,7 @@ description: "Recent papers, preprints, and research updates from Richard Stiska
 ## September 2026
 
 - **24 Sep** — New preprint: *Two-rung ladder: H₀ from Tip of the Red Giant Branch and geometric anchors alone* (R. Stiskalek, H. Desmond, G. Lavaux) on arXiv. [arXiv:2609.29996](https://arxiv.org/abs/2609.29996)
+- **17 Sep** — Attended the [Simons Collaboration on Learning the Universe annual meeting](https://www.simonsfoundation.org/event/simons-collaboration-on-learning-the-universe-annual-meeting-2026/), Simons Foundation, New York.
 - **15 Sep** — New preprint: *A reanalysis of the megamaser Hubble constant: from spot catalogues to peculiar velocities* (R. Stiskalek, H. Desmond) on arXiv. [arXiv:2609.17684](https://arxiv.org/abs/2609.17684)
 
 ## August 2026
